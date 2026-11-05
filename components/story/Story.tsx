@@ -54,37 +54,28 @@ export default function Story() {
         </div>
       </section>
 
-      {/* 03. Lund: sticky photo, text scrolls over it */}
-      <section className={s.scrolly}>
-        <div className={s.stage}>
-          <Photo id="lund" alt="Lund University's main building and fountain, Lund, Sweden" sizes="100vw" fill />
-        </div>
-        <div className={s.cards}>
-          <div className={s.card}>
-            <Chapter n="03" title="The basement" />
-            <p className={s.cardBig}>{ORIGIN.founded}. Lund, Sweden.</p>
-            <p>He’s {ORIGIN.founderAge}, a student in Lund, and he starts a company in {ORIGIN.room}.</p>
-          </div>
-          <div className={s.card}>
-            <p className={s.cardBig}>He calls it EF.</p>
-            <p>
-              Short for <strong>{ORIGIN.efStandsFor}</strong>: Swedish for “{ORIGIN.efMeans}”. Not “Education First”. That came later.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 04. Brighton */}
-      <section className={s.scrolly}>
-        <div className={s.stage}>
-          <Photo id="brighton" alt="Brighton Palace Pier seen from the sea, Brighton, England" sizes="100vw" fill />
-        </div>
-        <div className={s.cards}>
-          <div className={`${s.card} ${s.cardPink}`}>
-            <Chapter n="04" title="The first trip" />
-            <p className={s.cardBig}>Swedish teenagers. Brighton, England.</p>
-            <p>His first product: take students to England so they learn English the way he did. By living it.</p>
-          </div>
+      {/* 03 + 04. Lund and Brighton, side by side: the start and the first trip. */}
+      <section className={s.trips}>
+        <div className={s.tripsGrid}>
+          <article className={s.trip}>
+            <Photo id="lund" alt="Lund University's main building and fountain, Lund, Sweden" sizes="(min-width: 900px) 50vw, 100vw" ratio="4 / 3" />
+            <div className={s.card}>
+              <Chapter n="03" title="The basement" />
+              <p className={s.cardBig}>{ORIGIN.founded}. Lund, Sweden.</p>
+              <p>He’s {ORIGIN.founderAge}, a student in Lund, and he starts a company in {ORIGIN.room}.</p>
+              <p>
+                He calls it EF: <strong>{ORIGIN.efStandsFor}</strong>, Swedish for “{ORIGIN.efMeans}”. Not “Education First”. That came later.
+              </p>
+            </div>
+          </article>
+          <article className={s.trip}>
+            <Photo id="brighton" alt="Brighton Palace Pier seen from the sea, Brighton, England" sizes="(min-width: 900px) 50vw, 100vw" ratio="4 / 3" />
+            <div className={`${s.card} ${s.cardPink}`}>
+              <Chapter n="04" title="The first trip" />
+              <p className={s.cardBig}>Swedish teenagers. Brighton, England.</p>
+              <p>His first product: take students to England so they learn English the way he did. By living it.</p>
+            </div>
+          </article>
         </div>
       </section>
 
