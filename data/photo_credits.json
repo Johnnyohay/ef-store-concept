@@ -94,5 +94,13 @@
     "author": "ajay_suresh",
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hult-boston": {
+    "file": "/images/story/hult-boston.jpg",
+    "title": "File:Hult's Boston Campus.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Hult%27s_Boston_Campus.png",
+    "author": "Lucas E. Roemer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }

@@ -40,6 +40,10 @@ export default function HultPage() {
         </div>
       </header>
 
+      <section className={`wrap ${s.photo}`}>
+        <Photo id="hult-boston" alt="Hult International Business School's Boston campus building, with the Zakim Bridge behind it" ratio="778 / 453" sizes="(min-width: 900px) 1200px, 100vw" />
+      </section>
+
       <section className="wrap" aria-labelledby="facts-h">
         <h2 id="facts-h" className="visually-hidden">How Hult and EF connect</h2>
         <ol className={s.facts}>
@@ -63,10 +67,6 @@ export default function HultPage() {
             </li>
           ))}
         </ul>
-      </section>
-
-      <section className={`wrap ${s.photo}`}>
-        <Photo id="charles-river" alt="The Charles River in Cambridge, Massachusetts, where Hult is headquartered" ratio="16 / 9" sizes="100vw" />
       </section>
 
       <p className={`wrap ${s.source}`}>

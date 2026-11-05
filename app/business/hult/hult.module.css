@@ -16,7 +16,7 @@
 .print { font-family: var(--font-display); font-weight: 600; font-size: clamp(16px, 4.4vw, 26px); line-height: 1.05; text-align: center; max-width: 9ch; }
 .cardName { font-size: 15px; font-weight: 500; }
 .cardMeta { display: flex; justify-content: space-between; gap: var(--s2); font-size: 14px; }
-.photo { padding-top: var(--s16); }
+.photo { padding-top: var(--s6); }
 .source { font-size: 13px; color: var(--muted); padding-top: var(--s6); }
 .source a { text-decoration: underline; }
 @media (min-width: 900px) { .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--s4); } }

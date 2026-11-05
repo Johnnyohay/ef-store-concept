@@ -2,6 +2,7 @@
 // author, license and source page for every file in data/photo_credits.json.
 // Run: node scripts/commons-photos.mjs
 import fs from "node:fs/promises";
+import sharp from "sharp";
 const UA = { "User-Agent": "HultStudentConcept/1.0 (class project)" };
 const PHOTOS = {
   bertil: "File:Bertil Hult.jpg",
@@ -16,6 +17,7 @@ const PHOTOS = {
   "cycling-uran": "File:Rigoberto Uran of EF Education First (48068773373).jpg",
   "charles-river": "File:Charles River - Boston towards Cambridge, MA - DSC03037.JPG",
   "charles-sail": "File:Sailboat on the Charles River with Boston Skyline (54960888829).jpg",
+  "hult-boston": "File:Hult's Boston Campus.png",
 };
 const strip = (s = "") => s.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 let credits = {};
@@ -27,8 +29,9 @@ for (const [id, title] of Object.entries(PHOTOS)) {
   });
   const page = Object.values((await (await fetch(u, { headers: UA })).json()).query.pages)[0];
   const ii = page.imageinfo[0], m = ii.extmetadata;
-  const img = Buffer.from(await (await fetch(ii.thumburl, { headers: UA })).arrayBuffer());
-  await fs.writeFile(`data/raw/images/story/${id}.jpg`, img);
+  const img = Buffer.from(await (await fetch(ii.thumburl || ii.url, { headers: UA })).arrayBuffer());
+  // Always store as JPEG (some Commons files are PNG).
+  await sharp(img).flatten({ background: "#ffffff" }).jpeg({ quality: 90 }).toFile(`data/raw/images/story/${id}.jpg`);
   credits[id] = {
     file: `/images/story/${id}.jpg`, title, source: ii.descriptionurl,
     author: strip(m.Artist?.value), license: m.LicenseShortName?.value, license_url: m.LicenseUrl?.value || "",
