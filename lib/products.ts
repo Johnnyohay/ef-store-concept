@@ -2,6 +2,7 @@
 // scripts/build-data.mjs from the scrape). No runtime network calls.
 import data from "@/data/products.json";
 import collectionsData from "@/data/collections.json";
+import models from "@/data/models.json";
 
 export type SizeRow = { size: string; [measure: string]: string | number };
 
@@ -25,6 +26,8 @@ export type Product = {
   returns: string[];
   size_chart: { unit: "in"; rows: SizeRow[] } | null;
   source_url: string;
+  /** Set when an AI-generated photo of Jonathan wearing this design leads the gallery. */
+  model?: string;
 };
 
 export type Garment = "Tee" | "Boxy Tee" | "Hoodie" | "Zip Hoodie" | "Hat";
@@ -38,7 +41,14 @@ export type Collection = {
   match: (p: Product) => boolean;
 };
 
-export const PRODUCTS = (data as { products: Product[] }).products;
+const MODELS = models as Record<string, string>;
+// Products with a photo of Jonathan wearing them lead with that photo (labeled as AI-generated).
+export const PRODUCTS = (data as { products: Product[] }).products.map((p) =>
+  MODELS[p.id] && p.id !== "_note"
+    ? { ...p, model: MODELS[p.id], images: [`/images/models/${p.id}.jpg`, ...p.images] }
+    : p,
+).sort((a, b) => Number(!!b.model) - Number(!!a.model)); // photos of Jonathan lead every list (stable sort)
+export const isModelImage = (src: string) => src.startsWith("/images/models/");
 
 const GARMENT_GROUPS: Record<string, Garment[]> = {
   tees: ["Tee", "Boxy Tee"],
@@ -72,8 +82,8 @@ export const siblings = (p: Product) =>
   PRODUCTS.filter((q) => q.id !== p.id && q.design === p.design && q.collection === p.collection);
 
 /** The slim shape product lists send to the browser (keeps page payloads small). */
-export type CardProduct = Pick<Product, "id" | "new_name" | "legacy_name" | "collection" | "garment" | "new_price_usd" | "colors" | "sizes"> & { images: string[] };
+export type CardProduct = Pick<Product, "id" | "new_name" | "legacy_name" | "collection" | "garment" | "new_price_usd" | "colors" | "sizes" | "model"> & { images: string[] };
 export const toCard = (p: Product): CardProduct => ({
   id: p.id, new_name: p.new_name, legacy_name: p.legacy_name, collection: p.collection,
-  garment: p.garment, new_price_usd: p.new_price_usd, colors: p.colors, sizes: p.sizes, images: p.images.slice(0, 2),
+  garment: p.garment, new_price_usd: p.new_price_usd, colors: p.colors, sizes: p.sizes, images: p.images.slice(0, 2), model: p.model,
 });

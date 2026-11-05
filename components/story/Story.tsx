@@ -18,6 +18,16 @@ function Sticker({ id, tilt = 0, size = "m", label }: { id: string; tilt?: numbe
   );
 }
 
+// A photo of Jonathan wearing the design (AI-generated, labeled), shown like a pinned print.
+function ModelShot({ id, tilt = 0, label }: { id: string; tilt?: number; label: string }) {
+  return (
+    <Link href={`/product/${id}`} className={`${s.sticker} ${s.model}`} style={{ rotate: `${tilt}deg` }}>
+      <Image src={`/images/models/${id}.jpg`} alt={`Jonathan wearing the ${label} tee (AI-generated image)`} width={960} height={1190} sizes="(min-width: 900px) 300px, 60vw" />
+      <span className={s.stickerLabel}>{label} · Jonathan · AI image</span>
+    </Link>
+  );
+}
+
 function Chapter({ n, title }: { n: string; title: string }) {
   return (
     <p className={s.chapter}>
@@ -120,6 +130,7 @@ export default function Story() {
             </div>
           </div>
           <div className={s.pile} aria-label="Paul Rand collection">
+            <ModelShot id="paul-rand-option-3-red-blue-casual-tee" tilt={2} label="Rand Option 3" />
             <Link href="/product/paul-rand-option-1-casual-tee" className={`${s.sticker} ${s.l}`} style={{ rotate: "-5deg" }}>
               <Image src="/images/rand/option-1.jpg" alt="" width={480} height={480} sizes="(min-width: 900px) 280px, 45vw" />
               <span className={s.stickerLabel}>Option 1</span>
@@ -154,8 +165,8 @@ export default function Story() {
         <div className={`${s.wrap} ${s.argyleRow}`}>
           <p className={s.big}>The store has its own Argyle: a crocodile.</p>
           <div className={s.pile}>
-            <Sticker id="argyle-bros-casual-tee" tilt={-6} label="Argyle Pixel Walk" />
-            <Sticker id="versargyle-casual-tee" tilt={3} label="Argyle Sunglasses" />
+            <ModelShot id="argyle-bros-casual-tee" tilt={-3} label="Argyle Pixel Walk" />
+            <Sticker id="versargyle-casual-tee" tilt={5} label="Argyle Sunglasses" />
             <Sticker id="polka-casual-tee" tilt={-2} size="l" label="Concept Bike" />
           </div>
           <Link href="/shop/argyle-the-crocodile" className={s.go}>Shop Argyle the Crocodile</Link>
@@ -172,7 +183,7 @@ export default function Story() {
           </blockquote>
           <p className={s.attrib}>The EF Store, on its own Concept collection</p>
           <div className={s.scatter}>
-            <Sticker id="teegar-casual-tee" tilt={-4} label="Tiger" />
+            <ModelShot id="teegar-casual-tee" tilt={-4} label="Tiger" />
             <Sticker id="abracadabra-black-cats-casual-tee" tilt={5} label="Cat Letters" />
             <Sticker id="no-signal-casual-tee" tilt={-3} size="l" label="No Signal" />
             <Sticker id="wtef-casual-tee" tilt={2} label="Paper Cutout" />

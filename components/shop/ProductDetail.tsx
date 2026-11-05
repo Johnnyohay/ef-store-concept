@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import type { Product } from "@/lib/products";
+import { isModelImage, type Product } from "@/lib/products";
 import { usd } from "@/lib/format";
 import { track } from "@/lib/analytics";
 import { useBag } from "../Bag";
@@ -52,12 +52,15 @@ export default function ProductDetail({ p, collectionName, shipping, returnsExtr
         <div className={s.main}>
           <Image
             src={p.images[img]}
-            alt={`${p.new_name}, image ${img + 1} of ${p.images.length}`}
+            alt={isModelImage(p.images[img]) && p.model ? `${p.model} (AI-generated image)` : `${p.new_name}, image ${img + 1} of ${p.images.length}`}
             fill
             priority
             sizes="(min-width: 900px) 55vw, 100vw"
             className={s.mainImg}
           />
+          {isModelImage(p.images[img]) && (
+            <p className={s.aiNote}>AI-generated image of a real person (Jonathan, Hult MBA 2026) wearing this design.</p>
+          )}
         </div>
         {p.images.length > 1 && (
           <ul className={s.thumbs}>

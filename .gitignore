@@ -9,3 +9,4 @@ out
 next-env.d.ts.bak
 data/raw/products.raw.json
 tsconfig.tsbuildinfo
+lookbook-src

@@ -43,7 +43,7 @@ How it was checked: `scripts/flow-test.mjs` (browser test, 17 checks, all pass),
 | Colored left border on callouts | Pass | Only `border-left` is the bag drawer's 1px ink edge (`BagDrawer.module.css`), not a callout |
 | Italic serif accent word in a sans headline | Pass | No serif loaded, no italic styling. The word "italics" appears once in the booklet copy |
 | Generic fade-up on every section | Pass | Motion files: `Reveal` (used only on `/rand` options), product card hover swap, global reduced-motion rule. No scroll animation elsewhere |
-| Stock photos or AI-generated people | Pass | Real people in real places: 12 credited Wikimedia Commons photos (Bertil Hult, Paul Rand, EF's riders, Lund, Brighton, Boston), plus the EF Store's product photos |
+| Stock photos or AI-generated people | Changed by the client (2026-11-05) | Six AI-generated images (Canva) of Jonathan, at his request and with his consent, wearing six designs. Each is labeled 'AI image' on cards and 'AI-generated image of a real person' on product pages. Everything else: 13 credited Wikimedia Commons photos (Bertil Hult, Paul Rand, EF's riders, Lund, Brighton, Boston), plus the EF Store's product photos |
 
 ## Open items for the team
 1. Approve names in `data/name_map.csv` (column `approved`).

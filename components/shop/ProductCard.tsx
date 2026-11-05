@@ -14,12 +14,13 @@ export default function ProductCard({ p, priority = false }: { p: Product; prior
         <div className={s.media}>
           <Image
             src={p.images[0]}
-            alt={`${p.new_name}, product photo`}
+            alt={p.model ? `${p.model} (AI-generated image)` : `${p.new_name}, product photo`}
             fill
             sizes="(min-width: 1100px) 25vw, (min-width: 700px) 33vw, 50vw"
             priority={priority}
             className={s.img}
           />
+          {p.model && <span className={s.aiTag}>AI image</span>}
           {p.images[1] && (
             <Image src={p.images[1]} alt="" fill sizes="(min-width: 1100px) 25vw, 33vw" className={s.alt} aria-hidden />
           )}

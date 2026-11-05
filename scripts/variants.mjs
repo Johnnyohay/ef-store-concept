@@ -4,7 +4,7 @@
 import sharp from "sharp";
 import fs from "node:fs/promises";
 import path from "node:path";
-const SETS = { products: [480, 960], rand: [480, 960], story: [800, 1600], stickers: [480] };
+const SETS = { products: [480, 960], rand: [480, 960], story: [800, 1600], stickers: [480], models: [480, 960] };
 let n = 0;
 for (const [dir, widths] of Object.entries(SETS)) {
   const src = `data/raw/images/${dir}`; // originals live outside public/
