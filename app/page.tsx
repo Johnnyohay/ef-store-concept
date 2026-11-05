@@ -31,14 +31,18 @@ export default function Home() {
           </a>
         </div>
         <div className={s.heroPanel}>
-          <p className={s.kicker}>The EF Store</p>
-          <h1 className={s.h1}>Wear where you went.</h1>
+          <div>
+            <p className={s.kicker}>The EF Store</p>
+            <h1 className={s.h1}>Wear where you went.</h1>
+          </div>
+          <div className={s.heroText}>
           <p className={s.sub}>
             Tees, hoodies and caps for the millions who’ve traveled, studied, worked and raced with EF since {ORIGIN.founded}.
           </p>
           <div className={s.actions}>
             <Link href="/shop" className="btn">Shop all</Link>
             <a href="#story" className="textlink">Start the story</a>
+          </div>
           </div>
         </div>
       </section>
