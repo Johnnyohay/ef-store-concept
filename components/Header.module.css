@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 
-/* Plain set type, not the EF logo. The real logo is never redrawn on this site. */
+/* EF's own logo file (from the EF Store header) + set type. The logo is never redrawn. */
 .wordmark {
   justify-self: center;
   font-family: var(--font-display);
@@ -26,7 +26,8 @@
   line-height: 1;
 }
 .wordmark:hover { text-decoration: none; }
-.mark { font-weight: 700; }
+.mark { height: 22px; width: auto; }
+.wordmark { display: inline-flex; align-items: center; gap: 8px; }
 .store { font-weight: 400; }
 
 .iconBtn,

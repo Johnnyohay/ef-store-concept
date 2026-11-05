@@ -54,7 +54,7 @@ export default function Story() {
         </div>
       </section>
 
-      {/* 03 + 04. Lund and Brighton, side by side: the start and the first trip. */}
+      {/* 03 then 04, in order: the basement in Lund, then the first trip. */}
       <section className={s.trips}>
         <div className={s.tripsGrid}>
           <article className={s.trip}>

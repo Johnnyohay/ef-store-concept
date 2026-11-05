@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ORIGIN } from "@/lib/facts";
 import HeroFilm from "@/components/HeroFilm";
@@ -31,9 +32,13 @@ export default function Home() {
           </a>
         </div>
         <div className={s.heroPanel}>
-          <div>
-            <p className={s.kicker}>The EF Store</p>
-            <h1 className={s.h1}>Wear where you went.</h1>
+          <div className={s.brand}>
+            {/* EF's own logo file, from the EF Store's site header. Never redrawn. */}
+            <Image src="/brand/ef-logo.webp" alt="EF" width={420} height={244} className={s.logo} priority />
+            <div>
+              <p className={s.kicker}>The EF Store</p>
+              <h1 className={s.h1}>Wear where you went.</h1>
+            </div>
           </div>
           <div className={s.heroText}>
           <p className={s.sub}>

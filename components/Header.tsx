@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -35,7 +36,8 @@ export default function Header() {
         </button>
 
         <Link href="/" className={s.wordmark} aria-label="EF Store, home">
-          <span className={s.mark}>EF</span> <span className={s.store}>Store</span>
+          <Image src="/brand/ef-logo.webp" alt="" width={420} height={244} className={s.mark} priority />
+          <span className={s.store}>Store</span>
         </Link>
 
         <nav className={s.desktopNav} aria-label="Main">
