@@ -29,8 +29,8 @@
   .hero { min-height: calc(100svh - var(--header-h) - 34px); }
   .heroMedia { position: absolute; inset: 0; aspect-ratio: auto; height: 100%; }
   .heroPanel {
-    align-self: end; justify-self: start;
-    margin: 0 0 var(--s8) var(--gutter);
+    align-self: end; justify-self: end;
+    margin: 0 var(--gutter) var(--s8) 0;
     max-width: 640px; padding: var(--s8);
   }
 }
