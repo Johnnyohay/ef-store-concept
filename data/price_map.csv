@@ -1,0 +1,173 @@
+id,garment,legacy_name,legacy_price_usd,new_price_usd,change_usd,flag
+flag-face-dark-print-casual-tee,Tee,Flag Face (Dark Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+flag-face-dark-print-boxy-tee,Boxy Tee,Flag Face (Dark Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+flag-face-light-print-casual-tee,Tee,Flag Face (Light Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+flag-face-light-print-boxy-tee,Boxy Tee,Flag Face (Light Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+paul-rand-option-1-casual-tee,Tee,Paul Rand Option 1 - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+paul-rand-option-1-boxy-tee,Boxy Tee,Paul Rand Option 1 - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+paul-rand-option-2-black-casual-tee,Tee,Paul Rand Option 2 (Black) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+paul-rand-option-2-black-boxy-tee,Boxy Tee,Paul Rand Option 2 (Black) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+paul-rand-option-2-multicolor-casual-tee,Tee,Paul Rand Option 2 (Multicolor) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+paul-rand-option-2-multicolor-boxy-tee,Boxy Tee,Paul Rand Option 2 (Multicolor) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+paul-rand-option-3-black-casual-tee,Tee,Paul Rand Option 3 (Black) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+paul-rand-option-3-black-boxy-tee,Boxy Tee,Paul Rand Option 3 (Black) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+paul-rand-option-3-red-blue-casual-tee,Tee,Paul Rand Option 3 (Red/Blue) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+paul-rand-option-3-red-blue-boxy-tee,Boxy Tee,Paul Rand Option 3 (Red/Blue) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+paul-rand-option-3-white-casual-tee,Tee,Paul Rand Option 3 (White) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+paul-rand-option-3-white-boxy-tee,Boxy Tee,Paul Rand Option 3 (White) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+ef-academy-casual-tee-1,Tee,EF Academy Casual Tee 1,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+ef-academy-pullover-hoodie-2,Hoodie,EF Academy - Pullover Hoodie 2,39.23,40,0.77,one price for all sizes; old size upcharge up to +$4.00 removed
+ef-academy-cap-2,Hat,EF Academy Cap 2,19.65,20,0.35,REVIEW: now same $20 as Boxy Tee $22.25
+ef-academy-cap-1,Hat,EF Academy Cap 1,19.65,20,0.35,REVIEW: now same $20 as Boxy Tee $22.25
+ef-academy-casual-tee-3,Tee,EF Academy Casual Tee 3,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+ef-academy-casual-tee-2,Tee,EF Academy Casual Tee 2,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+ef-academy-boxy-tee-1,Boxy Tee,EF Academy Boxy Tee 1,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+ef-academy-pullover-hoodie-3,Hoodie,EF Academy - Pullover Hoodie 3,33.28,35,1.72,REVIEW: now same $35 as Zip Hoodie $36.37; one price for all sizes; old size upcharge up to +$4.00 removed
+ef-academy-pullover-hoodie-1,Hoodie,EF Academy - Pullover Hoodie 1,33.28,35,1.72,REVIEW: now same $35 as Zip Hoodie $36.37; one price for all sizes; old size upcharge up to +$4.00 removed
+ef-academy-cap-4,Hat,EF Academy Cap 4,19.65,20,0.35,REVIEW: now same $20 as Boxy Tee $22.25
+ef-academy-cap-3,Hat,EF Academy Cap 3,19.65,20,0.35,REVIEW: now same $20 as Boxy Tee $22.25
+argyla-casual-tee,Tee,Argyla - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+argyla-boxy-tee,Boxy Tee,Argyla - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+japan-cup-2024-casual-tee,Tee,Japan Cup 2024 - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+japan-cup-2024-boxy-tee,Boxy Tee,Japan Cup 2024 - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+japan-cup-2024-zip-hoodie,Zip Hoodie,Japan Cup 2024 - Zip Hoodie,36.37,35,-1.37,REVIEW: now same $35 as Hoodie $33.28; one price for all sizes; old size upcharge up to +$8.00 removed
+masterpiece-casual-tee,Tee,Masterpiece - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+masterpiece-boxy-tee,Boxy Tee,Masterpiece - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+pyxel-casual-tee,Tee,Pyxel - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+pyxel-boxy-tee,Boxy Tee,Pyxel - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+argyle-bros-casual-tee,Tee,Argyle Bros. - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+argyle-bros-boxy-tee,Boxy Tee,Argyle Bros. - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+versargyle-casual-tee,Tee,Versargyle - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+versargyle-boxy-tee,Boxy Tee,Versargyle - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+ilovefe-casual-tee,Tee,IloveFE - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+ilovefe-boxy-tee,Boxy Tee,IloveFE - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+fe-black-casual-tee,Tee,FE Black - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+fe-black-boxy-tee,Boxy Tee,FE Black - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+fe-red-casual-tee,Tee,FE Red - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+fe-red-boxy-tee,Boxy Tee,FE Red - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+fe-white-casual-tee,Tee,FE White - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+fe-white-boxy-tee,Boxy Tee,FE White - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+ef-berger-king-unfilled-casual-tee,Tee,EF Berger King (Unfilled) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+ef-berger-king-filled-casual-tee,Tee,EF Berger King (filled) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+ef-berger-king-filled-boxy-tee,Boxy Tee,EF Berger King (filled) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+stayin-alive-dark-print-casual-tee,Tee,Stayin' Alive (Dark Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+stayin-alive-dark-print-boxy-tee,Boxy Tee,Stayin' Alive (Dark Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+stayin-alive-light-print-casual-tee,Tee,Stayin' Alive (Light Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+stayin-alive-light-print-boxy-tee,Boxy Tee,Stayin' Alive (Light Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+stayin-alive-technicolor-casual-tee,Tee,Stayin' Alive (Technicolor) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+stayin-alive-technicolor-boxy-tee,Boxy Tee,Stayin' Alive (Technicolor) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+retro-horizon-casual-tee,Tee,Retro Horizon - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+retro-horizon-boxy-tee,Boxy Tee,Retro Horizon - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+retro-horizon-pullover-hoodie,Hoodie,Retro Horizon - Pullover Hoodie,39.23,40,0.77,one price for all sizes; old size upcharge up to +$4.00 removed
+retro-horizon-zip-hoodie,Zip Hoodie,Retro Horizon - Zip Hoodie,36.37,35,-1.37,REVIEW: now same $35 as Hoodie $33.28; one price for all sizes; old size upcharge up to +$8.00 removed
+evolution-dark-print-casual-tee,Tee,Evolution (Dark Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+evolution-dark-print-boxy-tee,Boxy Tee,Evolution (Dark Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+evolution-light-print-casual-tee,Tee,Evolution (Light Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+evolution-light-print-boxy-tee,Boxy Tee,Evolution (Light Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+london-bus-casual-tee,Tee,London Bus - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+london-bus-boxy-tee,Boxy Tee,London Bus - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+london-bus-zip-hoodie,Zip Hoodie,London Bus - Zip Hoodie,30.42,30,-0.42,REVIEW: now same $30 as Boxy Tee $28.20; one price for all sizes; old size upcharge up to +$8.00 removed
+new-wave-casual-tee,Tee,New Wave - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+new-wave-boxy-tee,Boxy Tee,New Wave - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+part-tickles-casual-tee,Tee,Part Tickles - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+part-tickles-boxy-tee,Boxy Tee,Part Tickles - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+rialto-blue-casual-tee,Tee,Rialto Blue - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+rialto-blue-boxy-tee,Boxy Tee,Rialto Blue - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+rialto-red-casual-tee,Tee,Rialto Red - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+rialto-red-boxy-tee,Boxy Tee,Rialto Red - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+first-born-unfilled-casual-tee,Tee,First Born (Unfilled) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+first-born-unfilled-boxy-tee,Boxy Tee,First Born (Unfilled) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+first-born-filled-casual-tee,Tee,First Born (Filled) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+first-born-filled-boxy-tee,Boxy Tee,First Born (Filled) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+classic-ef-hat,Hat,Classic EF Hat,20.65,20,-0.65,REVIEW: now same $20 as Boxy Tee $22.25
+pink-different-2026-casual-tee,Tee,Pink Different 2026 - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+pink-different-2026-boxy-tee,Boxy Tee,Pink Different 2026 - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+so-rainbow-casual-tee,Tee,So Rainbow - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+so-rainbow-boxy-tee,Boxy Tee,So Rainbow - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+so-rainbow-hat,Hat,So Rainbow Hat,19.65,20,0.35,REVIEW: now same $20 as Boxy Tee $22.25
+my-first-tshirt-dark-print-casual-tee,Tee,My First Tshirt (Dark Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+my-first-tshirt-dark-print-boxy-tee,Boxy Tee,My First Tshirt (Dark Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+my-first-hoodie-dark-print-pullover-hoodie,Hoodie,My First Hoodie (Dark Print) - Pullover Hoodie,33.28,35,1.72,REVIEW: now same $35 as Zip Hoodie $36.37; one price for all sizes; old size upcharge up to +$4.00 removed
+my-first-hoodie-dark-print-zip-hoodie,Zip Hoodie,My First Hoodie (Dark Print) - Zip Hoodie,29.43,30,0.57,one price for all sizes; old size upcharge up to +$8.00 removed
+my-first-tshirt-light-print-casual-tee,Tee,My First Tshirt (Light Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+my-first-tshirt-light-print-boxy-tee,Boxy Tee,My First Tshirt (Light Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+my-first-hoodie-light-print-pullover-hoodie,Hoodie,My First Hoodie (Light Print) - Pullover Hoodie,33.28,35,1.72,REVIEW: now same $35 as Zip Hoodie $36.37; one price for all sizes; old size upcharge up to +$4.00 removed
+my-first-hoodie-light-print-zip-hoodie,Zip Hoodie,My First Hoodie (Light Print) - Zip Hoodie,29.43,30,0.57,one price for all sizes; old size upcharge up to +$8.00 removed
+33-rpm-casual-tee,Tee,33 RPM - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+33-rpm-boxy-tee,Boxy Tee,33 RPM - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+3def-casual-tee,Tee,3DEF - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+3def-boxy-tee,Boxy Tee,3DEF - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+balloon-casual-tee,Tee,Balloon - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+balloon-boxy-tee,Boxy Tee,Balloon - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+polka-casual-tee,Tee,Polka - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+polka-boxy-tee,Boxy Tee,Polka - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+paintbrush-casual-tee,Tee,Paintbrush - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+paintbrush-boxy-tee,Boxy Tee,Paintbrush - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+joels-candy-store-casual-tee,Tee,Joels Candy Store - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+joels-candy-store-boxy-tee,Boxy Tee,Joels Candy Store - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+abracadabra-black-cats-casual-tee,Tee,Abracadabra Black Cats - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+abracadabra-black-cats-boxy-tee,Boxy Tee,Abracadabra Black Cats - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+abracadabra-white-cats-casual-tee,Tee,Abracadabra White Cats - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+abracadabra-white-cats-boxy-tee,Boxy Tee,Abracadabra White Cats - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+ef-berger-king-unfilled-boxy-tee,Boxy Tee,EF Berger King (unfilled) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+pi-f-p-casual-tee,Tee,Pi-F(π) - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+pi-f-p-boxy-tee,Boxy Tee,Pi-F(π) - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+boss-tee-dark-print-casual-tee,Tee,Boss Tee (Dark Print) - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+boss-tee-dark-print-boxy-tee,Boxy Tee,Boss Tee (Dark Print) - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+boss-dark-print-pullover-hoodie,Hoodie,Boss (Dark Print) - Pullover Hoodie,33.28,35,1.72,REVIEW: now same $35 as Zip Hoodie $36.37; one price for all sizes; old size upcharge up to +$4.00 removed
+boss-tee-light-print-casual-tee,Tee,Boss Tee (Light Print) - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+boss-tee-light-print-boxy-tee,Boxy Tee,Boss Tee (Light Print) - Boxy Tee,28.20,30,1.80,REVIEW: now same $30 as Zip Hoodie $30.42; one price for all sizes; old size upcharge up to +$6.25 removed
+boss-light-print-pullover-hoodie,Hoodie,Boss (Light Print) - Pullover Hoodie,33.28,35,1.72,REVIEW: now same $35 as Zip Hoodie $36.37; one price for all sizes; old size upcharge up to +$4.00 removed
+cote-dazur-casual-tee,Tee,Côte d’Azur - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+cote-dazur-boxy-tee,Boxy Tee,Côte d’Azur - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+dimensions-casual-tee,Tee,Dimensions - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+dimensions-boxy-tee,Boxy Tee,Dimensions - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+doodle-light-print-casual-tee-2,Tee,Doodle (Light Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+doodle-dark-print-boxy-tee,Boxy Tee,Doodle (Dark Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+doodle-light-print-casual-tee,Tee,Doodle (Light Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+doodle-light-print-boxy-tee,Boxy Tee,Doodle (Light Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+flow-casual-tee,Tee,Flow - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+flow-boxy-tee,Boxy Tee,Flow - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+eframe-casual-tee,Tee,EFRAME - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+eframe-boxy-tee,Boxy Tee,EFRAME - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+greenland-casual-tee,Tee,Greenland - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+greenland-boxytee,Boxy Tee,Greenland - BoxyTee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+ef-japan-casual-tee,Tee,EF Japan - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+ef-japan-boxy-tee,Boxy Tee,EF Japan - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+lucerne-casual-tee,Tee,Lucerne - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+lucerne-boxy-tee,Boxy Tee,Lucerne - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+landscapef-casual-tee,Tee,Landscapef - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+landscapef-boxy-tee,Boxy Tee,Landscapef - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+no-signal-casual-tee,Tee,No Signal - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+no-signal-boxy-tee,Boxy Tee,No Signal - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+orange-county-casual-tee,Tee,Orange County - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+orange-county-boxy-tee,Boxy Tee,Orange County - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+wtef-casual-tee,Tee,WTEF - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+wtef-boxy-tee,Boxy Tee,WTEF - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+breakout-casual-tee,Tee,Breakout - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+breakout-boxy-tee,Boxy Tee,Breakout - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+pixel-casual-tee,Tee,Pixel - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+pixel-boxy-tee,Boxy Tee,Pixel - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+planet-casual-tee,Tee,Planet - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+planet-boxy-tee,Boxy Tee,Planet - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+rings-of-color-casual-tee,Tee,Rings of Color - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+rings-of-color-boxy-tee,Boxy Tee,Rings of Color - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+rings-of-color-hat,Hat,Rings of Color Hat,19.65,20,0.35,REVIEW: now same $20 as Boxy Tee $22.25
+smilef-pink-print-casual-tee,Tee,SmilEF (Pink Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+smilef-pink-print-boxy-tee,Boxy Tee,SmilEF (Pink Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+smilef-purple-print-casual-tee,Tee,SmilEF (Purple Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+smilef-purple-print-boxy-tee,Boxy Tee,SmilEF (Purple Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+smilef-white-print-casual-tee,Tee,SmilEF (White Print) - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+smilef-white-print-boxy-tee,Boxy Tee,SmilEF (White Print) - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+boxed-casual-tee,Tee,Boxed - Casual Tee,26.40,25,-1.40,one price for all sizes; old size upcharge up to +$6.00 removed
+boxed-boxy-tee,Boxy Tee,Boxed - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+stripes-casual-tee,Tee,Stripes - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+stripes-boxy-tee,Boxy Tee,Stripes - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+icing-casual-tee,Tee,Icing - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+icing-boxy-tee,Boxy Tee,Icing - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+teegar-casual-tee,Tee,Teegar - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+teegar-boxy-tee,Boxy Tee,Teegar - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+utilitarian-casual-tee,Tee,Utilitarian - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+utilitarian-boxy-tee,Boxy Tee,Utilitarian - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"
+signal-casual-tee,Tee,Signal - Casual Tee,20.45,20,-0.45,REVIEW: now same $20 as Boxy Tee $22.25; one price for all sizes; old size upcharge up to +$6.00 removed
+signal-boxy-tee,Boxy Tee,Signal - Boxy Tee,22.25,20,-2.25,"REVIEW: now same $20 as Tee $20.45, Hat $19.65, Hat $20.65; one price for all sizes; old size upcharge up to +$6.25 removed"

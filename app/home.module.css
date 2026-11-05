@@ -1,0 +1,65 @@
+/* Home: a real photo, one clear line, then the story. */
+
+.hero { position: relative; display: grid; }
+.heroPhoto { aspect-ratio: 4 / 5; width: 100%; }
+.heroPanel {
+  position: relative;
+  margin: -90px var(--s2) 0;
+  background: var(--paper);
+  padding: var(--s5) var(--s4) var(--s6);
+  display: grid; gap: var(--s3);
+  border: 1.5px solid var(--ink);
+}
+.kicker { font-family: var(--font-display); font-weight: 700; font-size: 22px; letter-spacing: -0.01em; }
+.h1 {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(46px, 13vw, 132px);
+  line-height: 0.9; letter-spacing: -0.035em;
+}
+.sub { font-size: 17px; max-width: 38ch; }
+.actions { display: flex; align-items: center; gap: var(--s6); margin-top: var(--s2); }
+
+@media (min-width: 900px) {
+  .hero { min-height: calc(100svh - var(--header-h) - 34px); }
+  .heroPhoto { position: absolute !important; inset: 0; aspect-ratio: auto !important; height: 100%; }
+  .heroPanel {
+    align-self: end; justify-self: start;
+    margin: 0 0 var(--s8) var(--gutter);
+    max-width: 640px; padding: var(--s8);
+  }
+}
+
+/* The route ticker */
+.route { overflow: hidden; background: var(--ink); color: var(--paper); border-block: 1.5px solid var(--ink); }
+.track { display: flex; width: max-content; animation: run 38s linear infinite; }
+.stop {
+  display: inline-flex; align-items: center;
+  font-family: var(--font-display); font-weight: 600; font-size: 22px;
+  padding: 10px 0;
+}
+.stop::after { content: ""; width: 34px; height: 1.5px; background: var(--accent-pink); margin: 0 var(--s4); }
+@keyframes run { to { transform: translateX(-50%); } }
+@media (prefers-reduced-motion: reduce) { .track { animation: none; } }
+
+/* Find your shirt */
+.paths { background: var(--ink); color: var(--paper); padding: var(--s16) 0; }
+.pathsH {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(48px, 13vw, 140px); line-height: 0.9; letter-spacing: -0.035em;
+  margin-bottom: var(--s8);
+}
+.paths ul { border-top: 1.5px solid var(--paper); }
+.path {
+  display: grid; gap: 2px;
+  padding: var(--s4) 0;
+  border-bottom: 1px solid #3a3a3a;
+}
+.path:hover { text-decoration: none; }
+.path:hover .me { color: var(--accent-pink); }
+.me { font-family: var(--font-display); font-weight: 600; font-size: clamp(26px, 7vw, 56px); line-height: 1.04; letter-spacing: -0.02em; }
+.me::after { content: " →"; }
+.what { font-size: 15px; color: #c9c5bc; }
+@media (min-width: 900px) {
+  .path { grid-template-columns: 1.5fr 1fr; align-items: baseline; }
+}
+.all { display: inline-block; margin-top: var(--s6); font-size: var(--label-size); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; }

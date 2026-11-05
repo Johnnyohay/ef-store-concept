@@ -1,0 +1,7 @@
+.list { padding-top: var(--s8); }
+.row { display: grid; gap: var(--s2); padding: var(--s6) 0; border-bottom: 1px solid var(--ink); }
+.row:hover { text-decoration: none; }
+.row:hover .name { text-decoration: underline; text-underline-offset: 5px; }
+.name { font-family: var(--font-display); font-weight: 500; font-size: clamp(28px, 7vw, 56px); line-height: 1.05; }
+.meta { font-size: 16px; color: var(--muted); display: flex; gap: var(--s2); align-items: center; flex-wrap: wrap; }
+.tag { border: 1px solid var(--ink); color: var(--ink); padding: 2px var(--s2); font-size: var(--label-size); letter-spacing: var(--label-track); text-transform: uppercase; font-weight: 600; }

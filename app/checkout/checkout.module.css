@@ -1,0 +1,6 @@
+.page, .demo { display: grid; gap: var(--s5); padding-top: var(--s8); max-width: 560px; }
+.h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(40px, 11vw, 80px); line-height: 0.95; letter-spacing: -0.02em; }
+.body { font-size: 18px; }
+.demo { min-height: 60svh; align-content: center; justify-items: start; }
+.lines li { display: flex; justify-content: space-between; gap: var(--s4); padding: var(--s3) 0; border-bottom: 1px solid var(--line); }
+.total { display: flex; justify-content: space-between; font-size: 20px; font-weight: 600; }

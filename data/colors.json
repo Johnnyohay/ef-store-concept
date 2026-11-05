@@ -1,0 +1,17 @@
+{
+  "_note": "Swatch display colors only. These approximate the garment color NAMES published by the EF Store. They are not measured from the fabric. Logged in DATA_GAPS.md.",
+  "White": "#ffffff", "Black": "#1a1a1a", "Vintage White": "#f3eee2", "Navy Blazer": "#2a3349",
+  "Vintage Black": "#2d2c2b", "Mystic Blue": "#5c6fb5", "Crunchberry": "#f2668b", "Ivory": "#f6f0dc",
+  "True Navy": "#2c3550", "Graphite": "#4a4846", "Khaki": "#c8b98f", "Burnt orange": "#c8662e",
+  "Light Green": "#b9d3a6", "Sage": "#a3ab8f", "Espresso": "#5b4134", "Grey": "#9a9a98",
+  "Red": "#c0302b", "Blossom": "#f3c6cf", "Mustard": "#d4a43a", "Washed Denim": "#7f97b5",
+  "Chambray": "#a9bdd6", "Navy": "#23304a", "Charcoal Heather": "#4c4c4e", "Maroon": "#6b2230",
+  "Forest Green": "#2f4a36", "Royal": "#2c4fa3", "Military Green": "#5b5e3e", "Dark Navy": "#1f2638",
+  "Oatmeal Heather": "#ddd3c1", "Bone": "#e9e2d0", "Dusty Rose": "#d4a5a5", "Ash": "#d8d8d6",
+  "Sport Grey": "#a5a6a8", "Dark Chocolate": "#3d2b24", "Cardinal Red": "#9d2235", "Dark Heather": "#4a4b4f",
+  "Dark Green": "#264233", "Terracotta": "#b5603f", "Carbon Grey": "#5a5b5d", "Sky Blue": "#a9cbe6",
+  "Blue Jean": "#6b84a3", "Blue Spruce": "#3e5c5a", "Granite": "#6e6f70", "Moss": "#7a7d4f",
+  "Crimson": "#b3253a", "Denim": "#5873a0", "Butter": "#f4e6a6", "Flo Blue": "#6f86c4",
+  "Ice Blue": "#c9dde6", "Bay": "#b6c9b8", "Lagoon Blue": "#7fc6cf", "Midnight": "#2a3446",
+  "Carolina Blue": "#8fb7de", "Stone": "#d6cfbf"
+}

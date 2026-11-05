@@ -1,0 +1,12 @@
+.fig { display: grid; gap: var(--s2); }
+.frame { position: relative; width: 100%; background: var(--tile); overflow: hidden; }
+.img { object-fit: cover; }
+.empty {
+  position: absolute; inset: var(--s2);
+  border: 1px dashed var(--muted);
+  display: grid; align-content: center; justify-items: center; gap: var(--s2);
+  padding: var(--s4); text-align: center; color: var(--muted);
+}
+.want { font-size: 14px; max-width: 32ch; }
+.cap { font-size: 15px; }
+.credit { color: var(--muted); }

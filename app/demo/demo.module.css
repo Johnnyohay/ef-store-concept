@@ -1,0 +1,6 @@
+.page { display: grid; gap: var(--s6); padding-top: var(--s8); }
+.kpis { display: grid; gap: var(--s4); }
+.kpi { border-top: 1px solid var(--ink); padding-top: var(--s3); display: grid; gap: var(--s1); }
+.big { font-family: var(--font-display); font-weight: 600; font-size: clamp(72px, 22vw, 180px); line-height: 0.9; font-variant-numeric: tabular-nums; }
+.page > button { justify-self: start; }
+@media (min-width: 900px) { .kpis { grid-template-columns: 1fr 1fr; gap: var(--s12); } }

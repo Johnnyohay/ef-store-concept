@@ -1,0 +1,11 @@
+.guide { grid-column: 1 / -1; padding: var(--s8) var(--gutter) 0; scroll-margin-top: calc(var(--header-h) + var(--s4)); }
+.head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--s3); border-top: 1px solid var(--ink); padding-top: var(--s3); margin-bottom: var(--s3); }
+.title { font-family: var(--font-display); font-weight: 500; font-size: 24px; }
+.toggle { display: flex; border: 1px solid var(--ink); }
+.toggle button { min-height: 40px; padding: 0 var(--s3); font-size: 14px; }
+.on { background: var(--ink); color: var(--paper); }
+.scroll { overflow-x: auto; display: grid; gap: var(--s2); }
+.table { border-collapse: collapse; width: 100%; min-width: 360px; font-variant-numeric: tabular-nums; font-size: 15px; }
+.table th, .table td { text-align: left; padding: var(--s2) var(--s2) var(--s2) 0; border-bottom: 1px solid var(--line); }
+.table thead th { font-size: var(--label-size); letter-spacing: var(--label-track); text-transform: uppercase; font-weight: 600; }
+.gap { padding: var(--s3); border: 1px dashed var(--muted); }

@@ -1,0 +1,173 @@
+/* The story. Poster-scale type, real photos, cut-paper stickers.
+   Chrome stays monochrome; the three sampled accents live only here. */
+
+.story { overflow-x: clip; }
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+
+.chapter {
+  display: flex; align-items: center; gap: var(--s3);
+  font-size: var(--label-size); font-weight: 600; letter-spacing: var(--label-track); text-transform: uppercase;
+  margin-bottom: var(--s5);
+}
+.chapterN {
+  display: inline-grid; place-items: center;
+  min-width: 34px; height: 34px; padding: 0 6px;
+  border: 1.5px solid currentColor;
+  font-family: var(--font-display); font-size: 15px; letter-spacing: 0;
+}
+
+.giant {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(48px, 13.5vw, 168px);
+  line-height: 0.9; letter-spacing: -0.035em;
+  max-width: 11ch;
+}
+.big {
+  font-family: var(--font-display); font-weight: 500;
+  font-size: clamp(26px, 6.6vw, 56px);
+  line-height: 1.06; letter-spacing: -0.02em;
+  max-width: 20ch;
+}
+.lede { font-size: 18px; line-height: 1.5; max-width: 44ch; }
+.note { font-size: 15px; color: var(--muted); max-width: 30ch; }
+.source { font-size: 13px; color: var(--muted); margin-top: var(--s4); }
+.source a { text-decoration: underline; }
+.attrib { display: block; font-size: var(--label-size); letter-spacing: var(--label-track); text-transform: uppercase; font-weight: 600; margin-top: var(--s2); }
+.cols { display: grid; gap: var(--s4); margin-top: var(--s8); }
+@media (min-width: 900px) { .cols { grid-template-columns: 1.4fr 1fr; align-items: end; } }
+
+/* 01: the pun of the page. "English" crossed out in red, like a marked test. */
+.kid { padding: var(--s24) 0 var(--s16); }
+.strike { position: relative; white-space: nowrap; }
+.strike::after {
+  content: ""; position: absolute; left: -2%; right: -2%; top: 52%;
+  height: 0.09em; background: var(--accent-red); rotate: -4deg;
+}
+
+/* 02: ink page */
+.london { background: var(--ink); color: var(--paper); padding: var(--s16) 0 var(--s24); }
+.london .lede { color: #c9c5bc; margin-top: var(--s6); }
+.punch {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: clamp(36px, 10vw, 112px); line-height: 0.95; letter-spacing: -0.03em;
+  margin-top: var(--s8); color: var(--accent-pink);
+}
+
+/* 03–04: sticky photo, text cards scroll over it */
+.scrolly { position: relative; }
+.stage { position: sticky; top: 0; height: 100svh; }
+.cards {
+  position: relative; z-index: 1;
+  margin-top: -100svh;
+  padding: 60svh var(--gutter) 30svh;
+  display: grid; gap: 70svh;
+  max-width: var(--max); margin-left: auto; margin-right: auto;
+}
+.card {
+  background: var(--paper); color: var(--ink);
+  padding: var(--s5) var(--s5) var(--s6);
+  max-width: 460px;
+  display: grid; gap: var(--s3);
+  font-size: 17px;
+  border: 1.5px solid var(--ink);
+}
+.card .chapter { margin-bottom: 0; }
+.cardBig { font-family: var(--font-display); font-weight: 600; font-size: clamp(28px, 7vw, 44px); line-height: 1.02; letter-spacing: -0.02em; }
+.cardPink { background: var(--accent-pink); }
+
+/* 05: the ripple list. Big lines, alternating, years in pink. */
+.ripple { padding: var(--s24) 0; }
+.ripple .lede { margin-top: var(--s5); }
+.who { margin-top: var(--s8); border-top: 1.5px solid var(--ink); }
+.who li {
+  display: grid; grid-template-columns: 52px 1fr; column-gap: var(--s3);
+  padding: var(--s3) 0; border-bottom: 1px solid var(--line);
+}
+.whoYear { font-family: var(--font-display); font-weight: 600; font-size: 15px; color: var(--accent-red); padding-top: 0.5em; }
+.whoName { font-family: var(--font-display); font-weight: 600; font-size: clamp(26px, 7vw, 64px); line-height: 1.02; letter-spacing: -0.02em; }
+.whoWhat { grid-column: 2; font-size: 16px; color: var(--muted); }
+@media (min-width: 900px) {
+  .who li { grid-template-columns: 90px minmax(0, 1.4fr) minmax(0, 1fr); align-items: baseline; }
+  .whoWhat { grid-column: auto; font-size: 18px; }
+  .whoYear { font-size: 20px; }
+  .who li:nth-child(even) .whoName { padding-left: 8%; }
+}
+.stats { display: grid; grid-template-columns: 1fr; gap: var(--s4); margin-top: var(--s12); }
+.stats div { border-top: 1.5px solid var(--ink); padding-top: var(--s2); display: flex; flex-direction: column-reverse; }
+.stats dt { font-size: var(--label-size); letter-spacing: var(--label-track); text-transform: uppercase; font-weight: 600; }
+.stats dd { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: clamp(56px, 16vw, 120px); line-height: 0.95; letter-spacing: -0.03em; }
+@media (min-width: 900px) { .stats { grid-template-columns: repeat(3, 1fr); } }
+
+/* 06: Rand */
+.rand { padding: var(--s16) 0 var(--s24); border-top: 1.5px solid var(--ink); }
+.randGrid { display: grid; gap: var(--s6); }
+.randPhoto { max-width: 340px; rotate: -2deg; border: 6px solid #fff; outline: 1px solid var(--line); }
+.randText { display: grid; gap: var(--s5); align-content: end; }
+@media (min-width: 900px) { .randGrid { grid-template-columns: 340px 1fr; gap: var(--s12); align-items: end; } }
+
+/* Stickers: product prints cut from the store's photos, slightly crooked. */
+.pile, .scatter { display: flex; flex-wrap: wrap; align-items: flex-end; gap: var(--s4) var(--s2); margin: var(--s12) 0 var(--s6); }
+.pile { justify-content: center; }
+.sticker {
+  display: block; position: relative;
+  background: #fff; padding: 6px 6px 26px;
+  border: 1px solid rgba(24, 24, 24, 0.18);
+  transition: rotate 220ms ease, translate 220ms ease;
+}
+.sticker:hover { rotate: 0deg !important; translate: 0 -6px; text-decoration: none; }
+.sticker img { width: 100%; height: auto; display: block; }
+.s { width: clamp(110px, 26vw, 170px); }
+.m { width: clamp(140px, 38vw, 220px); }
+.l { width: clamp(160px, 46vw, 290px); }
+.stickerLabel {
+  position: absolute; left: 8px; bottom: 5px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink);
+}
+.go {
+  display: inline-flex; align-items: center; min-height: 48px; padding: 0 var(--s5);
+  border: 1.5px solid currentColor;
+  font-size: var(--label-size); font-weight: 700; letter-spacing: var(--label-track); text-transform: uppercase;
+  justify-self: start;
+}
+.go::after { content: "→"; margin-left: var(--s2); }
+.go:hover { background: var(--ink); color: var(--paper); border-color: var(--ink); text-decoration: none; }
+.links { display: flex; flex-wrap: wrap; gap: var(--s2); margin-top: var(--s5); }
+
+/* 07: pink */
+.pink { background: var(--accent-pink); color: var(--ink); padding: var(--s16) 0 var(--s16); }
+.pink .lede { margin-top: var(--s5); }
+.peloton { position: relative; display: grid; grid-template-columns: repeat(6, 1fr); gap: var(--s2); margin: var(--s12) 0; padding: 0 var(--s2); }
+.pel1 { grid-column: 1 / -1; }
+.pel2 { grid-column: 1 / 4; margin-top: calc(-1 * var(--s12)); border: 6px solid var(--accent-pink); }
+.pel3 { grid-column: 4 / 7; margin-top: var(--s6); }
+@media (min-width: 900px) {
+  .peloton { grid-template-columns: repeat(12, 1fr); max-width: var(--max); margin-left: auto; margin-right: auto; }
+  .pel1 { grid-column: 1 / 8; }
+  .pel2 { grid-column: 8 / 11; margin-top: var(--s16); }
+  .pel3 { grid-column: 10 / 13; margin-top: -40%; }
+}
+.argyleRow { display: grid; gap: var(--s2); }
+.argyleRow .go:hover { background: var(--ink); }
+
+/* 08: rules, on blue */
+.rules { background: var(--accent-blue); color: var(--paper); padding: var(--s16) 0 var(--s24); }
+.quote {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(30px, 7.6vw, 76px); line-height: 1.04; letter-spacing: -0.02em;
+  max-width: 22ch; margin: 0;
+}
+.hl { background: var(--accent-pink); color: var(--ink); padding: 0 0.12em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.rules .lede { margin-top: var(--s4); }
+.rules .go:hover { background: var(--paper); color: var(--ink); border-color: var(--paper); }
+
+/* 09: today */
+.today { padding: var(--s16) 0 var(--s12); }
+.todayPhotos { position: relative; max-width: var(--max); margin: 0 auto var(--s8); padding: 0 var(--gutter); }
+.today1 { width: 100%; }
+.today2 { position: absolute; width: 44%; right: var(--gutter); bottom: calc(-1 * var(--s8)); border: 6px solid var(--paper); }
+.today .lede { margin: var(--s5) 0 var(--s8); }
+@media (min-width: 900px) {
+  .todayPhotos { display: grid; grid-template-columns: 1.5fr 1fr; gap: var(--s4); align-items: end; }
+  .today1 { aspect-ratio: 3 / 2 !important; }
+  .today2 { position: static; width: auto; border: 0; }
+}

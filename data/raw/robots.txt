@@ -1,0 +1,90 @@
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /localization
+Disallow: /supporters/pricing
+Disallow: /supporters/payments/checkout
+Disallow: /supporters/payments/checkout/*
+Disallow: /supporters/perks/rss/
+Disallow: /theme_editor
+Disallow: /theme_editor/*
+Disallow: /_c
+Disallow: /_c/*
+Disallow: /checkout/*
+Disallow: /order/*
+Disallow: /cart.js
+
+User-agent: AhrefsBot
+Crawl-Delay: 10
+Disallow: /admin
+Disallow: /admin/
+Disallow: /localization
+Disallow: /supporters/pricing
+Disallow: /supporters/payments/checkout
+Disallow: /supporters/payments/checkout/*
+Disallow: /theme_editor
+Disallow: /theme_editor/*
+Disallow: /_c
+Disallow: /_c/*
+Disallow: /checkout/*
+Disallow: /order/*
+Disallow: /cart.js
+
+User-agent: AhrefsSiteAudit
+Crawl-Delay: 10
+Disallow: /admin
+Disallow: /admin/
+Disallow: /localization
+Disallow: /supporters/pricing
+Disallow: /supporters/payments/checkout
+Disallow: /supporters/payments/checkout/*
+Disallow: /theme_editor
+Disallow: /theme_editor/*
+Disallow: /_c
+Disallow: /_c/*
+Disallow: /checkout/*
+Disallow: /order/*
+Disallow: /cart.js
+
+User-agent: Storebot-Google
+Allow: /checkout/*
+Disallow: /admin
+Disallow: /admin/
+Disallow: /localization
+Disallow: /supporters/pricing
+Disallow: /supporters/payments/checkout
+Disallow: /supporters/payments/checkout/*
+Disallow: /theme_editor
+Disallow: /theme_editor/*
+Disallow: /_c
+Disallow: /_c/*
+Disallow: /order/*
+Disallow: /cart.js
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /localization
+Disallow: /supporters/pricing
+Disallow: /supporters/payments/checkout
+Disallow: /supporters/payments/checkout/*
+Disallow: /theme_editor
+Disallow: /theme_editor/*
+Disallow: /_c
+Disallow: /_c/*
+Disallow: /checkout/*
+Disallow: /order/*
+Disallow: /cart.js
+
+Sitemap: https://store.ef.com/sitemap.xml

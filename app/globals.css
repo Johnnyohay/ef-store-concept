@@ -1,0 +1,184 @@
+/*
+  Design tokens. All color, type and spacing on the site comes from here.
+
+  Chrome follows the Aime Leon Dore discipline (shadcn.io DESIGN.md, May 2026):
+  monochrome UI, near-black ink, sharp corners, no shadows, 5px spacing base.
+  Story accents are sampled from the EF Store's own Paul Rand product images
+  (see scripts/sample-colors.mjs) and appear ONLY in story sections and
+  collection headers. Never on buttons or nav.
+
+  WCAG AA contrast (checked in scripts/contrast.mjs):
+    ink   #181818 on paper #F6F4EF  -> 16.1:1
+    muted #6B6862 on paper #F6F4EF  ->  5.0:1
+    paper on ink                    -> 16.1:1
+*/
+:root {
+  --ink: #181818;
+  --paper: #f6f4ef;
+  --muted: #6b6862;
+  --line: #d9d5cc; /* hairlines only, never text */
+  --tile: #ebe8e1; /* image backdrop */
+
+  /* Story accents, sampled from real EF things (scripts/rand-assets.mjs, data/sampled_colors.json):
+     red + blue from the Paul Rand Option 1 print, pink from the EF pro team jersey
+     (Commons photo, cycling-team-2022). Story sections and collection headers only.
+     Text pairs: paper on red 4.7:1, paper on blue 8.6:1, ink on pink 6.1:1. */
+  --accent-red: #c33e40;   /* Rand Option 1 red ink */
+  --accent-blue: #2b3f8f;  /* Rand Option 1 blue ink */
+  --accent-pink: #fb5ca4;  /* EF pro cycling jersey */
+
+  --font-display: var(--font-jost), "Futura", sans-serif;
+  --font-body: var(--font-schibsted), "Helvetica Neue", sans-serif;
+
+  /* 5px base */
+  --s1: 5px;
+  --s2: 10px;
+  --s3: 15px;
+  --s4: 20px;
+  --s5: 25px;
+  --s6: 30px;
+  --s8: 40px;
+  --s12: 60px;
+  --s16: 80px;
+  --s24: 120px;
+
+  --gutter: var(--s4);
+  --max: 1440px;
+  --header-h: 55px;
+
+  --label-size: 12px; /* nav + labels on mobile; 10px is too small on a phone */
+  --label-track: 0.1em;
+  --body-size: 16px;
+}
+
+@media (min-width: 900px) {
+  :root {
+    --gutter: var(--s8);
+    --header-h: 65px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: var(--header-h);
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--body-size);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, p, ul, ol, figure, blockquote, dl, dd {
+  margin: 0;
+}
+ul, ol { padding: 0; list-style: none; }
+
+a { color: inherit; text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+button, input, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+img { display: block; max-width: 100%; height: auto; }
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.label {
+  font-family: var(--font-body);
+  font-size: var(--label-size);
+  font-weight: 500;
+  letter-spacing: var(--label-track);
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+
+.muted { color: var(--muted); }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.skip {
+  position: absolute;
+  left: var(--s2);
+  top: -100px;
+  background: var(--ink);
+  color: var(--paper);
+  padding: var(--s2) var(--s3);
+  z-index: 100;
+}
+.skip:focus { top: var(--s2); }
+
+.wrap {
+  width: 100%;
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* The one button style. Sharp, solid, no shadow, no gradient. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 var(--s6);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: var(--label-size);
+  font-weight: 600;
+  letter-spacing: var(--label-track);
+  text-transform: uppercase;
+  border: 1px solid var(--ink);
+}
+.btn:hover { text-decoration: none; background: #000; }
+.btn[disabled] { background: var(--line); border-color: var(--line); color: var(--muted); cursor: not-allowed; }
+.btn--ghost { background: transparent; color: var(--ink); }
+.btn--ghost:hover { background: var(--ink); color: var(--paper); }
+.btn--full { width: 100%; }
+
+.textlink {
+  font-size: var(--label-size);
+  font-weight: 600;
+  letter-spacing: var(--label-track);
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Space before the footer, except on pages that end on a full-bleed block. */
+main { padding-bottom: var(--s24); }
+main:has([data-flush-end]) { padding-bottom: 0; }

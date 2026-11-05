@@ -1,0 +1,424 @@
+{
+  "_readme": "Naming system: [Collection] [Design] [Garment], [Print]. Collection prefix is set by build-data.mjs from the product's primary collection. 'designs' is keyed by the legacy design name (legacy name minus the garment suffix and print in brackets). 'products' overrides by slug. Every story line is a DRAFT for team approval and describes only what is visible on the product, or a fact from brief section 3.",
+  "garments": {
+    "Tee": "Tee",
+    "Boxy Tee": "Boxy Tee",
+    "Hoodie": "Hoodie",
+    "Zip Hoodie": "Zip Hoodie",
+    "Hat": "Cap"
+  },
+  "prints": {
+    "Dark Print": "Dark Print",
+    "Light Print": "Light Print",
+    "filled": "Solid",
+    "Filled": "Solid",
+    "unfilled": "Outline",
+    "Unfilled": "Outline",
+    "Technicolor": "Multicolor Print",
+    "Multicolor": "Multicolor",
+    "Pink Print": "Pink Print",
+    "Purple Print": "Purple Print",
+    "White Print": "White Print",
+    "Black": "Black",
+    "White": "White",
+    "Red/Blue": "Red/Blue"
+  },
+  "designs": {
+    "33 RPM": {
+      "name": "33 RPM",
+      "story": "The two letters spun into rings, like a record at 33 RPM.",
+      "note": "Kept: most people read 33 RPM as a record in one look."
+    },
+    "3DEF": {
+      "name": "3D Letters",
+      "story": "E and F built as solid blocks in four colors, as if cut from wood.",
+      "note": "'3DEF' reads like a product code."
+    },
+    "Abracadabra Black Cats": {
+      "name": "Cat Letters",
+      "print": "Black Line",
+      "story": "Two cats, drawn in one line, standing in for the E and the F.",
+      "note": "'Abracadabra' doesn't describe the shirt. The cats do."
+    },
+    "Abracadabra White Cats": {
+      "name": "Cat Letters",
+      "print": "White Line",
+      "story": "Two cats, drawn in one line, standing in for the E and the F.",
+      "note": "Same design as Black Cats, so merged into one design name."
+    },
+    "Argyla": {
+      "name": "Bike Poster",
+      "story": "A red bike, a robot in an EF shirt, and ARGYLE in big black type.",
+      "note": "'Argyla' looks like a typo of Argyle."
+    },
+    "Argyle Bros.": {
+      "name": "Pixel Walk",
+      "story": "Argyle in pixel art, cap on, mid-stride.",
+      "note": "'Bros.' needs context a stranger doesn't have."
+    },
+    "Balloon": {
+      "name": "Balloon Letters",
+      "story": "EF blown up like party balloons, in candy colors.",
+      "note": "Clarified: it's the letters that are balloons."
+    },
+    "Boss": {
+      "name": "Collage",
+      "story": "Shapes, stripes and a little blue tag, all arranged around a striped EF.",
+      "note": "'Boss' doesn't describe the design."
+    },
+    "Boss Tee": {
+      "name": "Collage",
+      "story": "Shapes, stripes and a little blue tag, all arranged around a striped EF.",
+      "note": "'Boss Tee' doubled the garment word. Merged with the Boss hoodie."
+    },
+    "Boxed": {
+      "name": "Striped Blocks",
+      "story": "The E and the F reduced to two blocks of stripes.",
+      "note": "Clarified."
+    },
+    "Breakout": {
+      "name": "Patchwork",
+      "story": "EF stitched together from tiles of pattern and type.",
+      "note": "'Breakout' sounds like an arcade game."
+    },
+    "Côte d’Azur": {
+      "name": "Côte d’Azur Map",
+      "story": "A street map of the Côte d’Azur, in blues.",
+      "note": "Added 'Map' so it reads in one go."
+    },
+    "Dimensions": {
+      "name": "Dimensions",
+      "story": "A striped EF that looks like it’s coming off the shirt.",
+      "note": "Kept."
+    },
+    "Doodle": {
+      "name": "Education First Doodle",
+      "story": "EDUCATION and FIRST, with marker scribbles in between.",
+      "note": "Says what's printed on it."
+    },
+    "EF Berger King": {
+      "name": "Chunky Letters",
+      "story": "A fat, shiny, 3D ef in red and gold.",
+      "note": "Fast-food parody. Unclear to strangers and a trademark risk. Dropped."
+    },
+    "EF Japan": {
+      "name": "Japan",
+      "story": "A small chest print: EF set vertically, in red, white and blue.",
+      "note": "Kept the place, dropped the doubled EF."
+    },
+    "EFRAME": {
+      "name": "Frame",
+      "story": "A blocky EF wrapped in black bars and a thin frame.",
+      "note": "'EFRAME' reads as one long word."
+    },
+    "Evolution": {
+      "name": "Logo Evolution",
+      "story": "Three EF logos in a row, oldest to newest.",
+      "note": "Clarified."
+    },
+    "FE Black": {
+      "name": "Mascot",
+      "print": "Black Print",
+      "story": "The FE character, drawn in one line, mid-run with a bag.",
+      "note": "Split the print color out of the design name."
+    },
+    "FE White": {
+      "name": "Mascot",
+      "print": "White Print",
+      "story": "The FE character, drawn in one line, mid-run with a bag.",
+      "note": "Split the print color out of the design name."
+    },
+    "FE Red": {
+      "name": "Mascot",
+      "print": "Red Print",
+      "story": "The FE character, drawn in one line, mid-run with a bag.",
+      "note": "Split the print color out of the design name."
+    },
+    "First Born": {
+      "name": "Shadow Letters",
+      "story": "A tall EF with a striped shadow in red, orange and yellow.",
+      "note": "'First Born' implies a history fact we can't source."
+    },
+    "Flag Face": {
+      "name": "Flag Face",
+      "story": "Flags in a line, drawn into a face beside the EF. Signed by Paul Rand.",
+      "note": "Kept: the Rand story uses this name."
+    },
+    "Flow": {
+      "name": "Flow",
+      "story": "Two sets of curved stripes that make an E and an F.",
+      "note": "Kept."
+    },
+    "Greenland": {
+      "name": "Green Map",
+      "story": "A city map in greens, with EF hidden in the streets.",
+      "note": "'Greenland' reads as the country."
+    },
+    "Icing": {
+      "name": "Swirl",
+      "story": "EF spun into thin colored rings.",
+      "note": "'Icing' doesn't say what's on it."
+    },
+    "IloveFE": {
+      "name": "Heart",
+      "story": "I ♥ and the FE character, in red and blue.",
+      "note": "Kept the joke, fixed the spacing."
+    },
+    "Japan Cup 2024": {
+      "name": "Japan Cup 2024",
+      "story": "A robot, a crocodile and a skyline, in red, with JAPAN CUP across the bottom.",
+      "note": "Kept: it's what the print says."
+    },
+    "Joels Candy Store": {
+      "name": "Candy Rings",
+      "story": "EF in bright rings, like the stripes on hard candy.",
+      "note": "Inside joke about a person we can't name."
+    },
+    "Landscapef": {
+      "name": "Mountain Badge",
+      "story": "A small arched badge: mountains, trees and EF at the top.",
+      "note": "'Landscapef' is hard to read."
+    },
+    "London Bus": {
+      "name": "London Bus",
+      "story": "A double-decker with EF on the side, on a yellow ground.",
+      "note": "Kept."
+    },
+    "Lucerne": {
+      "name": "Lucerne",
+      "story": "EF filled with a collage of pattern and type.",
+      "note": "Kept the place name."
+    },
+    "Masterpiece": {
+      "name": "Paint Splash",
+      "story": "A pink beast on a bike, splattered on with paint drips.",
+      "note": "'Masterpiece' doesn't say what's on it."
+    },
+    "My First Hoodie": {
+      "name": "Striped EF",
+      "story": "The EF in thick stripes, small on the chest.",
+      "note": "'My First Hoodie' doesn't describe the design."
+    },
+    "My First Tshirt": {
+      "name": "Striped EF",
+      "story": "The EF in thick stripes, big on the chest.",
+      "note": "'My First Tshirt' doubled the garment word."
+    },
+    "New Wave": {
+      "name": "New Wave",
+      "story": "A lowercase ef on a circle and triangle, in 80s pastels.",
+      "note": "Kept."
+    },
+    "No Signal": {
+      "name": "No Signal",
+      "story": "EF on a TV test card, timestamp and color bars included.",
+      "note": "Kept."
+    },
+    "Orange County": {
+      "name": "Orange County Map",
+      "story": "A street map of Orange County, in oranges and reds.",
+      "note": "Added 'Map'."
+    },
+    "Paintbrush": {
+      "name": "Brushstroke",
+      "story": "EF painted in one ribbon of color.",
+      "note": "Clarified."
+    },
+    "Part Tickles": {
+      "name": "Particles",
+      "story": "Pieces of EF scattered like a chart: a dot, a spiral, the number 65.",
+      "note": "Pun too hard to read on first look."
+    },
+    "Paul Rand Option 1": {
+      "name": "Option 1",
+      "story": "One of the alternate EF logos Paul Rand drew for EF: red and blue stripes.",
+      "note": "Option numbering kept so the product matches the Rand story."
+    },
+    "Paul Rand Option 2": {
+      "name": "Option 2",
+      "story": "One of Rand’s alternate EF logos: italic letters filled with a pattern of type.",
+      "note": "Option numbering kept."
+    },
+    "Paul Rand Option 3": {
+      "name": "Option 3",
+      "story": "One of Rand’s alternate EF logos: EF inside a circle of cut letters.",
+      "note": "Option numbering kept."
+    },
+    "Pink Different 2026": {
+      "name": "Pink Rings",
+      "story": "EF in pink, orange and blue rings.",
+      "note": "'Pink Different 2026' is unclear."
+    },
+    "Pixel": {
+      "name": "Pixel Planet",
+      "story": "A pixel Earth with an EF flag planted on top.",
+      "note": "Clarified."
+    },
+    "Planet": {
+      "name": "Planet",
+      "story": "EDUCATION FIRST around a globe with a pink ring.",
+      "note": "Kept."
+    },
+    "Polka": {
+      "name": "Bike",
+      "story": "Argyle on a racing bike in a polka-dot jersey.",
+      "note": "Polka alone doesn't say crocodile on a bike."
+    },
+    "Pyxel": {
+      "name": "Pixel Face",
+      "story": "Argyle’s head in pixel art, big eyes, small teeth.",
+      "note": "'Pyxel' vs 'Pixel' was confusing."
+    },
+    "Retro Horizon": {
+      "name": "Horizon",
+      "story": "A sunset in stripes, framed like an old ticket, with SINCE repeated down the side.",
+      "note": "'Retro' is already the collection prefix."
+    },
+    "Rialto Blue": {
+      "name": "Rialto",
+      "print": "Blue",
+      "story": "A bold EF over a slanted stripe of color.",
+      "note": "Split the print color out."
+    },
+    "Rialto Red": {
+      "name": "Rialto",
+      "print": "Red",
+      "story": "A bold EF over a slanted stripe of color.",
+      "note": "Split the print color out."
+    },
+    "Rings of Color": {
+      "name": "Rings of Color",
+      "story": "EF in rings of every color.",
+      "note": "Kept."
+    },
+    "Signal": {
+      "name": "Wave Letters",
+      "story": "EF in soft green and pink waves.",
+      "note": "Too close to 'No Signal'."
+    },
+    "SmilEF": {
+      "name": "Smiley",
+      "story": "A hand-drawn smiley whose face is E and F.",
+      "note": "'SmilEF' takes two reads."
+    },
+    "So Rainbow": {
+      "name": "Rainbow",
+      "story": "A striped EF in a rainbow fade.",
+      "note": "Dropped 'So'."
+    },
+    "Stayin' Alive": {
+      "name": "Disco",
+      "story": "A slanted ef, like the lettering on an old record sleeve.",
+      "note": "Song reference doesn't describe the shirt."
+    },
+    "Stripes": {
+      "name": "Stripes",
+      "story": "E and F made only of pink and navy bars.",
+      "note": "Kept."
+    },
+    "Teegar": {
+      "name": "Tiger",
+      "story": "An orange tiger wearing an EF shirt.",
+      "note": "'Teegar' reads like a typo."
+    },
+    "Utilitarian": {
+      "name": "Utility",
+      "story": "EF*, ACADEMIC / ADVENTURE, in clean workwear type.",
+      "note": "Shortened."
+    },
+    "Versargyle": {
+      "name": "Sunglasses",
+      "story": "Argyle in sunglasses and a pink argyle cap.",
+      "note": "Fashion-house pun; not clear to everyone."
+    },
+    "WTEF": {
+      "name": "Paper Cutout",
+      "story": "EF built from overlapping cut-paper shapes in red, yellow, green and blue.",
+      "note": "WTF joke. Not for a family store."
+    },
+    "Pi-F": {
+      "name": "Circles",
+      "print": "",
+      "story": "Thin circles that overlap until they almost make an E and an F.",
+      "note": "Pi-F(π) math pun needs explaining."
+    }
+  },
+  "products": {
+    "so-rainbow-hat": {
+      "design": "Rainbow",
+      "print": "",
+      "story": "The rainbow EF, small on the front."
+    },
+    "rings-of-color-hat": {
+      "design": "Rings of Color",
+      "print": "",
+      "story": "EF in rings of every color, small on the front."
+    },
+    "classic-ef-hat": {
+      "design": "Classic",
+      "print": "",
+      "story": "Just the EF, small, on the side."
+    },
+    "ef-academy-cap-1": {
+      "design": "Crest",
+      "print": "Light Print",
+      "story": "The EF Academy crest, on a dark cap."
+    },
+    "ef-academy-cap-2": {
+      "design": "Crest",
+      "print": "Dark Print",
+      "story": "The EF Academy crest, on a light cap."
+    },
+    "ef-academy-cap-3": {
+      "design": "Wordmark",
+      "print": "Light Print",
+      "story": "EF ACADEMY and the crest, on a dark cap."
+    },
+    "ef-academy-cap-4": {
+      "design": "Wordmark",
+      "print": "Dark Print",
+      "story": "EF ACADEMY and the crest, on a light cap."
+    },
+    "ef-academy-pullover-hoodie-1": {
+      "design": "Crest Stack",
+      "print": "Light Print",
+      "story": "EF ACADEMY over the crest, small on the chest."
+    },
+    "ef-academy-pullover-hoodie-2": {
+      "design": "Crest",
+      "print": "",
+      "story": "Only the crest, small on the chest."
+    },
+    "ef-academy-pullover-hoodie-3": {
+      "design": "Crest Stack",
+      "print": "Dark Print",
+      "story": "EF ACADEMY over the crest, small on the chest."
+    },
+    "ef-academy-casual-tee-1": {
+      "design": "Arch",
+      "print": "",
+      "story": "EF ACADEMY in an arch, college style."
+    },
+    "ef-academy-casual-tee-2": {
+      "design": "Crest Stack",
+      "print": "",
+      "story": "EF ACADEMY over the crest."
+    },
+    "ef-academy-casual-tee-3": {
+      "design": "Crest Line",
+      "print": "",
+      "story": "The crest and EF ACADEMY on one line."
+    },
+    "ef-academy-boxy-tee-1": {
+      "design": "Crest Stack",
+      "print": "",
+      "story": "EF ACADEMY over the crest."
+    },
+    "doodle-light-print-casual-tee-2": {
+      "design": "Education First Doodle",
+      "print": "Dark Print",
+      "story": "EDUCATION and FIRST, with marker scribbles in between.",
+      "note": "VERIFY: live store calls this 'Light Print', but it only comes in light garments, like the Dark Print boxy tee. Looks mislabeled on store.ef.com."
+    }
+  }
+}

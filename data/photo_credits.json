@@ -1,0 +1,98 @@
+{
+  "bertil": {
+    "file": "/images/story/bertil.jpg",
+    "title": "File:Bertil Hult.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bertil_Hult.jpg",
+    "author": "Thomas",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "rand": {
+    "file": "/images/story/rand.jpg",
+    "title": "File:Paul rand loc.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_rand_loc.jpg",
+    "author": "Unknown author (Library of Congress)",
+    "license": "Public domain",
+    "license_url": ""
+  },
+  "lund": {
+    "file": "/images/story/lund.jpg",
+    "title": "File:Lund, the main building of the university and fountain.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Lund,_the_main_building_of_the_university_and_fountain.JPG",
+    "author": "Dguendel",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "lund-street": {
+    "file": "/images/story/lund-street.jpg",
+    "title": "File:Stora Södergatan, Lund on a September evening.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Stora_S%C3%B6dergatan,_Lund_on_a_September_evening.jpg",
+    "author": "JIP",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "brighton": {
+    "file": "/images/story/brighton.jpg",
+    "title": "File:Brighton Palace Pier 2023-07-09 174604.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Brighton_Palace_Pier_2023-07-09_174604.jpg",
+    "author": "Andy Li",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "lucerne": {
+    "file": "/images/story/lucerne.jpg",
+    "title": "File:Luzern - Chapel Bridge - March 2019 (02).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Luzern_-_Chapel_Bridge_-_March_2019_(02).jpg",
+    "author": "Liridon",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cycling-tdf-2022": {
+    "file": "/images/story/cycling-tdf-2022.jpg",
+    "title": "File:EF Education-EasyPost TdF 2022.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:EF_Education-EasyPost_TdF_2022.jpg",
+    "author": "Krzysztof Golik",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cycling-tdf-2023": {
+    "file": "/images/story/cycling-tdf-2023.jpg",
+    "title": "File:EF Education EasyPost - Tour de France 2023 A.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:EF_Education_EasyPost_-_Tour_de_France_2023_A.jpg",
+    "author": "René Hourdry",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cycling-team-2022": {
+    "file": "/images/story/cycling-team-2022.jpg",
+    "title": "File:Team presentation of Tour de France 2022 - EF Education-EasyPost 02.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Team_presentation_of_Tour_de_France_2022_-_EF_Education-EasyPost_02.jpg",
+    "author": "Leif Jørgensen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "cycling-uran": {
+    "file": "/images/story/cycling-uran.jpg",
+    "title": "File:Rigoberto Uran of EF Education First (48068773373).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Rigoberto_Uran_of_EF_Education_First_(48068773373).jpg",
+    "author": "Ray Rogers from Novato, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "charles-river": {
+    "file": "/images/story/charles-river.jpg",
+    "title": "File:Charles River - Boston towards Cambridge, MA - DSC03037.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_River_-_Boston_towards_Cambridge,_MA_-_DSC03037.JPG",
+    "author": "Daderot",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "charles-sail": {
+    "file": "/images/story/charles-sail.jpg",
+    "title": "File:Sailboat on the Charles River with Boston Skyline (54960888829).jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Sailboat_on_the_Charles_River_with_Boston_Skyline_(54960888829).jpg",
+    "author": "ajay_suresh",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0"
+  }
+}

@@ -1,0 +1,3 @@
+.head { padding-top: var(--s12); }
+.h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(44px, 12vw, 128px); line-height: 0.9; letter-spacing: -0.035em; max-width: 12ch; margin-top: var(--s3); }
+.end { padding-top: var(--s8); }

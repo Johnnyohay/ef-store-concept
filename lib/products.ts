@@ -1,0 +1,79 @@
+// Product data access. Everything comes from data/products.json (built by
+// scripts/build-data.mjs from the scrape). No runtime network calls.
+import data from "@/data/products.json";
+import collectionsData from "@/data/collections.json";
+
+export type SizeRow = { size: string; [measure: string]: string | number };
+
+export type Product = {
+  id: string; // slug used in /product/[slug]
+  legacy_name: string;
+  new_name: string;
+  design: string;
+  print: string; // e.g. "Red/Blue", "Dark Print", or ""
+  collection: string; // primary collection slug
+  collections: string[];
+  garment: Garment;
+  legacy_price_usd: number;
+  new_price_usd: number;
+  colors: { name: string; hex: string | null }[];
+  sizes: string[];
+  images: string[];
+  story_line: string;
+  story_line_status: "draft" | "approved";
+  details: string[];
+  returns: string[];
+  size_chart: { unit: "in"; rows: SizeRow[] } | null;
+  source_url: string;
+};
+
+export type Garment = "Tee" | "Boxy Tee" | "Hoodie" | "Zip Hoodie" | "Hat";
+
+export type Collection = {
+  slug: string;
+  name: string;
+  kind: "garment" | "story" | "business";
+  story: string; // short story line in the collection header
+  accent: "red" | "blue" | "pink" | null;
+  match: (p: Product) => boolean;
+};
+
+export const PRODUCTS = (data as { products: Product[] }).products;
+
+const GARMENT_GROUPS: Record<string, Garment[]> = {
+  tees: ["Tee", "Boxy Tee"],
+  "classic-tees": ["Tee"],
+  "boxy-tees": ["Boxy Tee"],
+  hoodies: ["Hoodie", "Zip Hoodie"],
+  "pullover-hoodies": ["Hoodie"],
+  "zip-hoodies": ["Zip Hoodie"],
+  hats: ["Hat"],
+};
+
+type CollectionMeta = Omit<Collection, "match">;
+const META = collectionsData as CollectionMeta[];
+
+export const COLLECTIONS: Collection[] = META.map((m) => ({
+  ...m,
+  match: GARMENT_GROUPS[m.slug]
+    ? (p: Product) => GARMENT_GROUPS[m.slug].includes(p.garment)
+    : (p: Product) => p.collections.includes(m.slug),
+}));
+
+export const getCollection = (slug: string) => COLLECTIONS.find((c) => c.slug === slug);
+export const getProduct = (id: string) => PRODUCTS.find((p) => p.id === id);
+export const productsIn = (slug: string) => {
+  const c = getCollection(slug);
+  return c ? PRODUCTS.filter(c.match) : [];
+};
+
+/** Other prints and garments of the same design, for "Also in" links. */
+export const siblings = (p: Product) =>
+  PRODUCTS.filter((q) => q.id !== p.id && q.design === p.design && q.collection === p.collection);
+
+/** The slim shape product lists send to the browser (keeps page payloads small). */
+export type CardProduct = Pick<Product, "id" | "new_name" | "legacy_name" | "collection" | "garment" | "new_price_usd" | "colors" | "sizes"> & { images: string[] };
+export const toCard = (p: Product): CardProduct => ({
+  id: p.id, new_name: p.new_name, legacy_name: p.legacy_name, collection: p.collection,
+  garment: p.garment, new_price_usd: p.new_price_usd, colors: p.colors, sizes: p.sizes, images: p.images.slice(0, 2),
+});

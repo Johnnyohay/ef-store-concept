@@ -1,0 +1,9 @@
+{
+  "_readme": "Boston lookbook photos. Drop files into public/lookbook/ and fill in src, alt and caption. Empty src shows a labeled frame. Captions are first person, written by the person in the photo. Never use stock or AI-generated images.",
+  "home-hero": { "src": "", "alt": "", "caption": "", "credit": "", "want": "Wide shot, 1-3 people in EF merch in a Boston place people recognize (Esplanade, Harvard Bridge, North End, Hult Cambridge campus). Landscape for desktop; the crop keeps the center for phones." },
+  "home-who": { "src": "", "alt": "", "caption": "", "credit": "", "want": "Close portrait, one person wearing a tee, looking at the camera." },
+  "rand-worn": { "src": "", "alt": "", "caption": "", "credit": "", "want": "Someone wearing a Paul Rand Option tee, full print visible." },
+  "story-today": { "src": "", "alt": "", "caption": "", "credit": "", "want": "A group of classmates, candid, outdoors in Boston." },
+  "hult-capsule": { "src": "", "alt": "", "caption": "", "credit": "", "want": "Hult students on or near campus. No merch needed: the capsule is a concept." },
+  "product-on-person": { "src": "", "alt": "", "caption": "", "credit": "", "want": "Any tee worn, waist-up, plain background. Shown on product pages as 'On a person'." }
+}

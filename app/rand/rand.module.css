@@ -1,0 +1,103 @@
+/* /rand: paced like Rand's own presentation booklets. One idea per screen,
+   big type, lots of white space. Color only in story blocks (sampled accents). */
+.page { overflow-x: clip; }
+
+.screen {
+  min-height: 82svh;
+  display: grid;
+  align-content: center;
+  gap: var(--s4);
+  padding: var(--s16) var(--gutter);
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+.huge {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(44px, 13vw, 150px);
+  line-height: 0.95;
+  letter-spacing: -0.025em;
+  max-width: 12ch;
+}
+.mid {
+  font-family: var(--font-display);
+  font-weight: 450;
+  font-size: clamp(28px, 7vw, 64px);
+  line-height: 1.08;
+  letter-spacing: -0.015em;
+  max-width: 18ch;
+}
+.body { font-size: 18px; max-width: 46ch; }
+.year {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(80px, 30vw, 260px);
+  line-height: 0.85;
+  color: var(--accent-blue);
+}
+
+.hook { min-height: calc(100svh - var(--header-h)); align-content: end; padding-bottom: var(--s24); }
+
+/* Full-bleed red block: a sheet of colored paper. */
+.red {
+  max-width: none;
+  background: var(--accent-red);
+  color: var(--paper);
+  clip-path: polygon(0 4%, 100% 0, 100% 96%, 0 100%);
+}
+.red .huge { max-width: 14ch; margin: 0 auto 0 0; }
+@media (min-width: 1440px) { .red { padding-left: calc((100vw - var(--max)) / 2 + var(--gutter)); } }
+
+/* The pun: "several" printed several times, slightly off-register, like stacked cut paper. */
+.several { position: relative; display: inline-block; }
+.several::before,
+.several::after {
+  content: "several";
+  position: absolute;
+  left: 0; top: 0;
+  z-index: -1;
+}
+.several::before { color: var(--accent-pink); transform: translate(0.06em, 0.06em); }
+.several::after { color: var(--accent-blue); transform: translate(0.12em, 0.12em); z-index: -2; }
+.red .huge { position: relative; z-index: 0; isolation: isolate; }
+
+.rule .huge { text-decoration: line-through; text-decoration-thickness: 0.08em; text-decoration-color: var(--accent-red); }
+
+.optionsIntro { min-height: 60svh; }
+
+.options { display: grid; gap: var(--s24); padding: 0 var(--gutter) var(--s24); max-width: var(--max); margin: 0 auto; }
+.option { display: grid; gap: var(--s3); justify-items: start; }
+.option:nth-child(even) { justify-items: end; text-align: right; }
+.optNum {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(36px, 10vw, 96px);
+  line-height: 1;
+}
+.sheet { width: min(80vw, 520px); }
+.sheetLink { display: block; background: #fff; border: 1px solid var(--ink); }
+.sheetImg { width: 100%; height: auto; }
+.optNote { font-size: 15px; }
+
+.booklet { border-top: 1px solid var(--ink); }
+
+.worn { max-width: 520px; margin: 0 auto; padding: 0 var(--gutter) var(--s16); }
+
+.source { font-size: 13px; color: var(--muted); max-width: 70ch; padding-bottom: var(--s16); }
+.source a { text-decoration: underline; text-underline-offset: 2px; }
+
+.shop { padding-top: var(--s8); border-top: 1px solid var(--ink); }
+.shopTitle { font-family: var(--font-display); font-weight: 500; font-size: clamp(32px, 6vw, 56px); line-height: 1.05; margin-bottom: var(--s4); }
+
+@media (min-width: 900px) {
+  .option { grid-template-columns: auto 1fr; align-items: end; gap: var(--s8); }
+  .option:nth-child(even) { grid-template-columns: 1fr auto; }
+  .option:nth-child(even) .optNum { order: 2; }
+  .optNote { grid-column: 1 / -1; }
+  .sheet { width: 520px; }
+}
+
+.who { gap: var(--s6); }
+.portrait { width: min(62vw, 320px); rotate: -2deg; border: 6px solid #fff; outline: 1px solid var(--line); }
+@media (min-width: 900px) { .who { grid-template-columns: 320px 1fr; align-items: end; gap: var(--s12); } }

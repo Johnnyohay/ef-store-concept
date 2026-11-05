@@ -1,0 +1,133 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.bar {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  align-items: center;
+  height: var(--header-h);
+  padding: 0 var(--s2);
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+/* Plain set type, not the EF logo. The real logo is never redrawn on this site. */
+.wordmark {
+  justify-self: center;
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  line-height: 1;
+}
+.wordmark:hover { text-decoration: none; }
+.mark { font-weight: 700; }
+.store { font-weight: 400; }
+
+.iconBtn,
+.bagBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 44px;
+}
+.bagBtn { gap: var(--s1); padding-right: var(--s1); }
+.count { font-size: var(--label-size); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+.tools { display: flex; align-items: center; justify-content: flex-end; }
+
+.desktopNav { display: none; }
+
+@media (min-width: 1100px) {
+  .bar {
+    grid-template-columns: auto 1fr auto;
+    gap: var(--s8);
+    padding: 0 var(--gutter);
+  }
+  .bar > .iconBtn:first-child { display: none; }
+  .wordmark { justify-self: start; }
+  .desktopNav { display: block; }
+  .desktopNav > ul { display: flex; gap: var(--s5); }
+  .navItem { position: relative; }
+  .navLink {
+    display: inline-block;
+    padding: var(--s3) 0;
+    color: var(--muted);
+    border-bottom: 1px solid transparent;
+  }
+  .navLink:hover { color: var(--ink); text-decoration: none; }
+  .navLink.current { color: var(--ink); border-bottom-color: var(--ink); }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: calc(-1 * var(--s4));
+    min-width: 260px;
+    background: var(--paper);
+    border: 1px solid var(--ink);
+    padding: var(--s3) var(--s4);
+  }
+  .navItem:hover .dropdown,
+  .navItem:focus-within .dropdown { display: block; }
+  .dropdown li a { display: block; padding: var(--s1) 0; font-size: 15px; }
+  .dropdown li:first-child a { font-weight: 600; }
+  .dropdown .current { text-decoration: underline; text-underline-offset: 3px; }
+}
+
+.search {
+  display: flex;
+  gap: 0;
+  padding: var(--s2) var(--gutter) var(--s3);
+  max-width: var(--max);
+  margin: 0 auto;
+}
+.search input {
+  flex: 1;
+  min-width: 0;
+  height: 50px;
+  padding: 0 var(--s3);
+  border: 1px solid var(--ink);
+  border-right: 0;
+  background: #fff;
+  font-size: 16px; /* 16px stops iOS zoom on focus */
+  cursor: text;
+}
+
+.drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: var(--paper);
+  overflow-y: auto;
+  padding: 0 var(--gutter) var(--s12);
+}
+.drawerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-h);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: var(--s4);
+}
+.group { padding: var(--s3) 0; border-bottom: 1px solid var(--line); }
+.groupTitle {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 1.2;
+  padding: var(--s1) 0;
+}
+.group ul { padding: var(--s1) 0 0; }
+.group li a { display: block; padding: 7px 0; font-size: 16px; }
+.group li:first-child a { font-weight: 600; }
+.drawer .current { text-decoration: underline; text-underline-offset: 4px; }
+
+.concept { background: var(--ink); color: var(--paper); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600; text-align: center; padding: 7px var(--s2); line-height: 1.4; }

@@ -1,0 +1,171 @@
+pyxel-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+teegar-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+pi-f-p-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+boss-tee-dark-print-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+ef-berger-king-filled-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+orange-county-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+stayin-alive-technicolor-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+paul-rand-option-3-red-blue-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+new-wave-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+so-rainbow-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+balloon-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+evolution-light-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+no-signal-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+fe-black-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+ef-japan-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+boxed-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+rialto-red-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+eframe-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+utilitarian-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+stayin-alive-light-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+smilef-pink-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+paintbrush-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+boss-tee-light-print-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+first-born-filled-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+landscapef-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+ilovefe-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+my-first-tshirt-dark-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+greenland-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+argyle-bros-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+masterpiece-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+polka-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+breakout-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+paul-rand-option-1-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+evolution-dark-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+33-rpm-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+3def-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+ef-berger-king-unfilled-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+cote-dazur-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+fe-white-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+retro-horizon-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+planet-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+versargyle-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+smilef-white-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+paul-rand-option-3-white-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+pink-different-2026-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+argyla-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+paul-rand-option-3-black-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+part-tickles-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+first-born-unfilled-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+paul-rand-option-2-black-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+flag-face-light-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+my-first-tshirt-light-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+rings-of-color-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+flag-face-dark-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+signal-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+abracadabra-black-cats-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+flow-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+paul-rand-option-2-multicolor-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+london-bus-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+doodle-light-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+stayin-alive-dark-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+doodle-light-print-casual-tee-2: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+smilef-purple-print-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+abracadabra-white-cats-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+japan-cup-2024-casual-tee: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+dimensions-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+rialto-blue-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+icing-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+stripes-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+fe-red-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+wtef-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+lucerne-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+pixel-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+joels-candy-store-casual-tee: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+ef-berger-king-filled-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+stayin-alive-technicolor-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+evolution-light-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+argyle-bros-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+33-rpm-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+icing-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+stripes-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+stayin-alive-light-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+lucerne-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+ef-japan-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+japan-cup-2024-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+no-signal-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+pink-different-2026-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+abracadabra-white-cats-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+wtef-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+boss-tee-light-print-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+paintbrush-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+joels-candy-store-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+so-rainbow-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+cote-dazur-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+fe-red-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+signal-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+paul-rand-option-3-white-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+first-born-filled-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+smilef-white-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+retro-horizon-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+evolution-dark-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+rialto-red-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+doodle-dark-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+rings-of-color-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+paul-rand-option-1-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+boxed-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+argyla-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+abracadabra-black-cats-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+dimensions-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+rialto-blue-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+pi-f-p-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+ilovefe-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+pixel-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+flag-face-light-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+doodle-light-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+first-born-unfilled-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+new-wave-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+orange-county-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+ef-berger-king-unfilled-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+paul-rand-option-3-black-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+smilef-pink-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+teegar-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+versargyle-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+masterpiece-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+smilef-purple-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+fe-black-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+part-tickles-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+london-bus-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+paul-rand-option-2-multicolor-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+paul-rand-option-3-red-blue-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+flow-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+pyxel-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+paul-rand-option-2-black-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+landscapef-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+3def-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+flag-face-dark-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+my-first-tshirt-dark-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+fe-white-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+breakout-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+my-first-tshirt-light-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+polka-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+boss-tee-dark-print-boxy-tee: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.
+eframe-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+utilitarian-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+planet-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+balloon-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+stayin-alive-dark-print-boxy-tee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+my-first-hoodie-dark-print-pullover-hoodie: multiple variant prices 33.28 / 35.28 / 37.28; new price uses the lowest.
+my-first-hoodie-light-print-pullover-hoodie: multiple variant prices 33.28 / 35.28 / 37.28; new price uses the lowest.
+boss-dark-print-pullover-hoodie: multiple variant prices 33.28 / 35.28 / 37.28; new price uses the lowest.
+boss-light-print-pullover-hoodie: multiple variant prices 33.28 / 35.28 / 37.28; new price uses the lowest.
+retro-horizon-pullover-hoodie: multiple variant prices 39.23 / 41.23 / 43.23; new price uses the lowest.
+japan-cup-2024-zip-hoodie: multiple variant prices 36.37 / 38.37 / 40.37 / 42.37 / 44.37; new price uses the lowest.
+my-first-hoodie-light-print-zip-hoodie: multiple variant prices 29.43 / 31.43 / 33.43 / 35.43 / 37.43; new price uses the lowest.
+my-first-hoodie-dark-print-zip-hoodie: multiple variant prices 29.43 / 31.43 / 33.43 / 35.43 / 37.43; new price uses the lowest.
+london-bus-zip-hoodie: multiple variant prices 30.42 / 32.42 / 34.42 / 36.42 / 38.42; new price uses the lowest.
+retro-horizon-zip-hoodie: multiple variant prices 36.37 / 38.37 / 40.37 / 42.37 / 44.37; new price uses the lowest.
+so-rainbow-hat: no size chart (measurements) published.
+rings-of-color-hat: no size chart (measurements) published.
+greenland-boxytee: multiple variant prices 22.25 / 24.25 / 26.25 / 28.5; new price uses the lowest.
+ef-academy-cap-3: no size chart (measurements) published.
+ef-academy-cap-4: no size chart (measurements) published.
+ef-academy-cap-1: no size chart (measurements) published.
+ef-academy-cap-2: no size chart (measurements) published.
+ef-academy-pullover-hoodie-1: multiple variant prices 33.28 / 35.28 / 37.28; new price uses the lowest.
+ef-academy-pullover-hoodie-2: multiple variant prices 39.23 / 41.23 / 43.23; new price uses the lowest.
+ef-academy-pullover-hoodie-3: multiple variant prices 33.28 / 35.28 / 37.28; new price uses the lowest.
+ef-academy-casual-tee-1: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+ef-academy-casual-tee-2: multiple variant prices 26.4 / 28.4 / 30.4 / 32.4; new price uses the lowest.
+ef-academy-casual-tee-3: multiple variant prices 20.45 / 22.45 / 24.45 / 26.45; new price uses the lowest.
+ef-academy-boxy-tee-1: multiple variant prices 28.2 / 30.2 / 32.2 / 34.45; new price uses the lowest.

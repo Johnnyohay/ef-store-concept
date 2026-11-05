@@ -1,0 +1,9 @@
+.head { padding: var(--s8) 0 var(--s6); border-bottom: 1px solid var(--line); }
+.head > div { display: grid; gap: var(--s3); }
+.crumbs { font-size: var(--label-size); letter-spacing: var(--label-track); text-transform: uppercase; }
+.title { font-family: var(--font-display); font-weight: 600; font-size: clamp(40px, 11vw, 96px); line-height: 0.95; letter-spacing: -0.02em; }
+.story { font-size: 18px; max-width: 46ch; }
+.count { font-size: 14px; font-weight: 600; }
+.red { background: var(--accent-red); color: var(--paper); border: 0; }
+.blue { background: var(--accent-blue); color: var(--paper); border: 0; }
+.pink { background: var(--accent-pink); color: var(--ink); border: 0; }

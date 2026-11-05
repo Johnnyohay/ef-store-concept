@@ -1,0 +1,12 @@
+{
+  "_source": "https://store.ef.com/pages/returns-faq (scraped 2026-11-05). Delivery times and costs are not published there; see DATA_GAPS.md.",
+  "shipping": [
+    "Made to order: printed for you after you order, so it isn’t sitting in a warehouse.",
+    "You can edit or cancel for a short time after ordering, until it goes to production.",
+    "International orders may owe import duties. Checkout shows either a pre-collected duty amount or a notice.",
+    "Delivery time and cost: [NEEDS SOURCE]"
+  ],
+  "returns_extra": [
+    "You have 30 days after delivery to report a quality issue. Send a photo of the problem with your order number."
+  ]
+}

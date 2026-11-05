@@ -1,0 +1,15 @@
+.fig { position: relative; overflow: hidden; background: var(--tile); margin: 0; }
+.fill { position: absolute; inset: 0; }
+.img { object-fit: cover; }
+.credit {
+  position: absolute; right: 0; bottom: 0;
+  max-width: 90%;
+  padding: 3px 6px;
+  background: rgba(24, 24, 24, 0.72);
+  color: #f6f4ef;
+  font-size: 10px;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+}
+.credit a { text-decoration: none; }
+.credit a:hover { text-decoration: underline; }

@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "tees",
+    "name": "Tees",
+    "kind": "garment",
+    "accent": null,
+    "story": "Every design, on a regular tee or a boxy one."
+  },
+  {
+    "slug": "classic-tees",
+    "name": "Classic tees",
+    "kind": "garment",
+    "accent": null,
+    "story": "Regular fit, the one you already own five of."
+  },
+  {
+    "slug": "boxy-tees",
+    "name": "Boxy tees",
+    "kind": "garment",
+    "accent": null,
+    "story": "Wider body, shorter length."
+  },
+  {
+    "slug": "hoodies",
+    "name": "Hoodies",
+    "kind": "garment",
+    "accent": null,
+    "story": "For the flight home and the first cold week back."
+  },
+  {
+    "slug": "pullover-hoodies",
+    "name": "Pullover hoodies",
+    "kind": "garment",
+    "accent": null,
+    "story": "No zip, front pocket."
+  },
+  {
+    "slug": "zip-hoodies",
+    "name": "Zip hoodies",
+    "kind": "garment",
+    "accent": null,
+    "story": "Full zip, easy on, easy off."
+  },
+  {
+    "slug": "hats",
+    "name": "Hats",
+    "kind": "garment",
+    "accent": null,
+    "story": "The smallest way to wear it."
+  },
+  {
+    "slug": "paul-rand",
+    "name": "Paul Rand",
+    "kind": "story",
+    "accent": "red",
+    "story": "He promised one perfect logo. For EF, he drew several. These are the ones that didn’t win."
+  },
+  {
+    "slug": "ef-logo",
+    "name": "EF Logo",
+    "kind": "story",
+    "accent": "blue",
+    "story": "The letters, plain. EF stands for Europeiska Ferieskolan, Swedish for “European holiday school”."
+  },
+  {
+    "slug": "retro",
+    "name": "Retro",
+    "kind": "story",
+    "accent": "pink",
+    "story": "EF’s logo has changed five times since 1965. These shirts wear the old ones."
+  },
+  {
+    "slug": "concept",
+    "name": "Concept",
+    "kind": "story",
+    "accent": "blue",
+    "story": "The store’s own words: EF has strict rules for its logo, “but with this collection we’ve completely ignored them all!”"
+  },
+  {
+    "slug": "argyle-the-crocodile",
+    "name": "Argyle the Crocodile",
+    "kind": "story",
+    "accent": "pink",
+    "story": "Argyle is a crocodile on a bike. Argyle is also the diamond pattern of the pro cycling team EF took over in 2017, after its fans ran a #SaveArgyle campaign."
+  },
+  {
+    "slug": "the-fe-collection",
+    "name": "The FE Collection",
+    "kind": "story",
+    "accent": "red",
+    "story": "The FE character: drawn in one line, always in a hurry, always wearing FE."
+  },
+  {
+    "slug": "ef-academy",
+    "name": "EF Academy",
+    "kind": "business",
+    "accent": "blue",
+    "story": "For EF Academy students, families and alumni."
+  }
+]

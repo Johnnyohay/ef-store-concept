@@ -1,0 +1,29 @@
+{
+  "name": "ef-store-concept",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Student concept for Hult MKT-6054. Not affiliated with or endorsed by EF.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "scrape": "node scripts/scrape.mjs",
+    "build:data": "node scripts/build-data.mjs",
+    "record": "cat RECORDING.md"
+  },
+  "dependencies": {
+    "@fontsource-variable/jost": "^5.3.0",
+    "@fontsource-variable/schibsted-grotesk": "^5.3.0",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "playwright": "^1.56.1",
+    "sharp": "^0.35.5",
+    "typescript": "5.9"
+  }
+}

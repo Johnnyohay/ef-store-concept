@@ -1,0 +1,11 @@
+node_modules
+.next
+data/raw/html
+screenshots
+*.log
+data/raw/images
+out
+.claude
+next-env.d.ts.bak
+data/raw/products.raw.json
+tsconfig.tsbuildinfo
