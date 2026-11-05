@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ORIGIN } from "@/lib/facts";
-import Photo from "@/components/story/Photo";
+import HeroFilm from "@/components/HeroFilm";
+import { FILM } from "@/lib/film";
 import Story from "@/components/story/Story";
 import s from "./home.module.css";
 
@@ -23,13 +24,12 @@ export default function Home() {
     <>
       {/* First screen. 5-second test: what it is (the EF Store, merch) and who it's for. */}
       <section className={s.hero}>
-        <Photo
-          id="cycling-team-2022"
-          alt="EF's pro cycling team in pink jerseys, presented at the Tour de France 2022"
-          sizes="100vw"
-          priority
-          className={s.heroPhoto}
-        />
+        <div className={s.heroMedia}>
+          <HeroFilm />
+          <a className={s.filmCredit} href={FILM.url} target="_blank" rel="noopener">
+            Film: “{FILM.title}”, {FILM.channel} on YouTube. Watch with sound ↗
+          </a>
+        </div>
         <div className={s.heroPanel}>
           <p className={s.kicker}>The EF Store</p>
           <h1 className={s.h1}>Wear where you went.</h1>

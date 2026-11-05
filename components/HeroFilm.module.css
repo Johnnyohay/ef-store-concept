@@ -1,0 +1,13 @@
+/* A 16:9 film that always covers its box, whatever the box's shape. */
+.film { position: absolute; inset: 0; overflow: hidden; background: var(--ink); container-type: size; }
+.still { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.frame {
+  position: absolute; top: 50%; left: 50%;
+  width: max(100cqw, calc(100cqh * 16 / 9));
+  height: max(100cqh, calc(100cqw * 9 / 16));
+  transform: translate(-50%, -50%) scale(1.25); /* hides YouTube's edge UI */
+  border: 0;
+  pointer-events: none;
+}
+/* Flat 30% ink layer so white type over moving footage stays readable. */
+.shade { position: absolute; inset: 0; background: rgba(24, 24, 24, 0.3); }
