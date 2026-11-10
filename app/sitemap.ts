@@ -6,7 +6,7 @@ import { absImg } from "@/lib/img";
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ["/", "/story/", "/rand/", "/shop/", "/custom/", "/business/", "/business/hult/", "/credits/"];
+  const pages = ["/", "/story/", "/rand/", "/shop/", "/business/", "/business/hult/", "/credits/"];
   return [
     ...pages.map((p) => ({ url: SITE_URL + p, changeFrequency: "monthly" as const, priority: p === "/" ? 1 : 0.8 })),
     ...COLLECTIONS.map((c) => ({ url: `${SITE_URL}/shop/${c.slug}/`, changeFrequency: "weekly" as const, priority: 0.7 })),

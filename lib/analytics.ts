@@ -7,13 +7,13 @@
 // Totals across sessions are kept in localStorage so the class can see
 // several phones' worth of runs on the presenter's machine.
 
-export type EventName = "product_view" | "add_to_bag" | "rand_start" | "rand_end" | "session_start" | "custom_view";
+export type EventName = "product_view" | "add_to_bag" | "rand_start" | "rand_end" | "session_start";
 
 const SESSION_KEY = "efc.session";
 const TOTALS_KEY = "efc.totals";
 
 type Counts = Record<EventName, number>;
-const zero = (): Counts => ({ product_view: 0, add_to_bag: 0, rand_start: 0, rand_end: 0, session_start: 0, custom_view: 0 });
+const zero = (): Counts => ({ product_view: 0, add_to_bag: 0, rand_start: 0, rand_end: 0, session_start: 0 });
 
 function read(storage: Storage | undefined, key: string): Counts {
   try {

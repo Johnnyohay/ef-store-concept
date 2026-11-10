@@ -25,7 +25,6 @@ export const NAV: NavItem[] = [
     ],
   },
   { label: "Hats", href: "/shop/hats" },
-  { label: "Make your own", href: "/custom" },
   {
     label: "Collections",
     href: "/shop",
