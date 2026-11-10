@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { CardProduct as Product } from "@/lib/products";
 import { usd } from "@/lib/format";
+import { modelLine } from "@/lib/modelFit";
 import Swatches from "./Swatches";
 import s from "./ProductCard.module.css";
 
@@ -27,6 +28,7 @@ export default function ProductCard({ p, priority = false }: { p: Product; prior
         </div>
         <h3 className={s.name}>{p.new_name}</h3>
       </Link>
+      {p.model && <p className={s.fit}>{modelLine(p.garment)}{p.garment === "Boxy Tee" && p.teeTwin ? " (shown in the regular tee)" : ""}</p>}
       {p.boxyTwin && <Link href={`/product/${p.boxyTwin}`} className={s.twin}>Also in boxy fit</Link>}
       <div className={s.meta}>
         <span className={s.price}>{usd(p.new_price_usd)}</span>

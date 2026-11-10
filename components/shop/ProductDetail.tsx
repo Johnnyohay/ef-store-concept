@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { isModelImage, type Product } from "@/lib/products";
 import { usd } from "@/lib/format";
+import { modelLine } from "@/lib/modelFit";
 import { track } from "@/lib/analytics";
 import { useBag } from "../Bag";
 import SizeGuide from "./SizeGuide";
@@ -59,7 +60,7 @@ export default function ProductDetail({ p, collectionName, shipping, returnsExtr
             className={s.mainImg}
           />
           {isModelImage(p.images[img]) && (
-            <p className={s.aiNote}>AI-generated image of a real person (Jonathan, Hult MBA 2026) wearing this design.</p>
+            <p className={s.aiNote}>{modelLine(p.garment)}. AI-generated image of a real person (Hult MBA 2026).</p>
           )}
         </div>
         {p.images.length > 1 && (

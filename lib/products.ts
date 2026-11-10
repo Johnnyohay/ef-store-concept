@@ -43,11 +43,18 @@ export type Collection = {
 
 const MODELS = models as Record<string, string>;
 // Products with a photo of Jonathan wearing them lead with that photo (labeled as AI-generated).
-export const PRODUCTS = (data as { products: Product[] }).products.map((p) =>
-  MODELS[p.id] && p.id !== "_note"
-    ? { ...p, model: MODELS[p.id], images: [`/images/models/${p.id}.jpg`, ...p.images] }
-    : p,
-).sort((a, b) => Number(!!b.model) - Number(!!a.model)); // photos of Jonathan lead every list (stable sort)
+const RAW = (data as { products: Product[] }).products;
+/** The photo of Jonathan for a product: its own, or (boxy tees) the one of the same print on the regular tee. */
+const modelFor = (p: Product): string | undefined => {
+  if (MODELS[p.id]) return p.id;
+  if (p.garment !== "Boxy Tee") return undefined;
+  const tee = RAW.find((q) => q.garment === "Tee" && q.design === p.design && q.print === p.print && q.collection === p.collection);
+  return tee && MODELS[tee.id] ? tee.id : undefined;
+};
+export const PRODUCTS = RAW.map((p) => {
+  const m = modelFor(p);
+  return m ? { ...p, model: MODELS[m], images: [`/images/models/${m}.jpg`, ...p.images] } : p;
+}).sort((a, b) => Number(!!b.model) - Number(!!a.model)); // photos of Jonathan lead every list (stable sort)
 export const isModelImage = (src: string) => src.startsWith("/images/models/");
 
 const GARMENT_GROUPS: Record<string, Garment[]> = {
