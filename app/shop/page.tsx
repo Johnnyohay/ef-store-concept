@@ -10,15 +10,17 @@ export const metadata: Metadata = {
 };
 
 export default function ShopAll() {
+  const cards = PRODUCTS.map(toCard);
   return (
     <>
       <CollectionHeader
-        c={{ name: "Shop all", story: "Every design, one listing each, every color shown.", accent: null, kind: "garment" }}
+        designs={cards.filter((p) => !p.teeTwin).length}
+        c={{ name: "Shop all", story: "Every design, every color shown. Tell us who it’s for and we’ll narrow it down.", accent: null, kind: "garment" }}
         count={PRODUCTS.length}
         crumbs={[{ label: "Home", href: "/" }, { label: "Shop", href: "/shop" }]}
       />
       <div className="wrap">
-          <ProductList products={PRODUCTS.map(toCard)} />
+          <ProductList products={cards} personas />
       </div>
     </>
   );

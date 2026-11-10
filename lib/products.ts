@@ -82,8 +82,18 @@ export const siblings = (p: Product) =>
   PRODUCTS.filter((q) => q.id !== p.id && q.design === p.design && q.collection === p.collection);
 
 /** The slim shape product lists send to the browser (keeps page payloads small). */
-export type CardProduct = Pick<Product, "id" | "new_name" | "legacy_name" | "collection" | "garment" | "new_price_usd" | "colors" | "sizes" | "model"> & { images: string[] };
+export type CardProduct = Pick<Product, "id" | "new_name" | "legacy_name" | "collection" | "garment" | "new_price_usd" | "colors" | "sizes" | "model"> & {
+  images: string[];
+  /** Tee only: the same design and print also comes as a boxy tee. */
+  boxyTwin?: string;
+  /** Boxy tee only: the regular tee of the same design and print (the list can fold this one into it). */
+  teeTwin?: string;
+};
+const twin = (p: Product, g: Garment) =>
+  PRODUCTS.find((q) => q.garment === g && q.design === p.design && q.print === p.print && q.collection === p.collection)?.id;
 export const toCard = (p: Product): CardProduct => ({
   id: p.id, new_name: p.new_name, legacy_name: p.legacy_name, collection: p.collection,
   garment: p.garment, new_price_usd: p.new_price_usd, colors: p.colors, sizes: p.sizes, images: p.images.slice(0, 2), model: p.model,
+  ...(p.garment === "Tee" && { boxyTwin: twin(p, "Boxy Tee") }),
+  ...(p.garment === "Boxy Tee" && { teeTwin: twin(p, "Tee") }),
 });

@@ -27,6 +27,7 @@ export default function ProductCard({ p, priority = false }: { p: Product; prior
         </div>
         <h3 className={s.name}>{p.new_name}</h3>
       </Link>
+      {p.boxyTwin && <Link href={`/product/${p.boxyTwin}`} className={s.twin}>Also in boxy fit</Link>}
       <div className={s.meta}>
         <span className={s.price}>{usd(p.new_price_usd)}</span>
         <Swatches colors={p.colors} />

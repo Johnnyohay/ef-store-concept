@@ -18,6 +18,7 @@ const PATHS = [
   { me: "I follow the pink jerseys", go: "/shop/argyle-the-crocodile", what: "Argyle the Crocodile" },
   { me: "I like good design", go: "/shop/paul-rand", what: "The Paul Rand logos" },
   { me: "I like the old stuff", go: "/shop/retro", what: "Retro: the logos EF retired" },
+  { me: "I want my city on it", go: "/custom", what: "Make your own: your city, year and program" },
 ];
 
 export default function Home() {

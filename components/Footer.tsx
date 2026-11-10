@@ -15,6 +15,7 @@ export default function Footer() {
             <li><Link href="/shop/tees">Tees</Link></li>
             <li><Link href="/shop/hoodies">Hoodies</Link></li>
             <li><Link href="/shop/hats">Hats</Link></li>
+            <li><Link href="/custom">Make your own</Link></li>
           </ul>
           <ul>
             <li className="label muted">Story</li>

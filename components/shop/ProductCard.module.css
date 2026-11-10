@@ -10,3 +10,5 @@
 .meta { display: flex; justify-content: space-between; align-items: center; gap: var(--s2); }
 .price { font-size: 15px; font-variant-numeric: tabular-nums; }
 .aiTag { position: absolute; left: 6px; top: 6px; z-index: 1; background: var(--ink); color: var(--paper); font-size: 10px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 6px; }
+.twin { display: inline-block; font-size: 13px; color: var(--muted, #6b6b6b); text-decoration: underline; text-underline-offset: 3px; margin: -2px 0 6px; }
+.twin:hover { color: var(--ink); }

@@ -34,6 +34,8 @@ export default async function CollectionPage({ params }: Params) {
     c.kind === "business" ? { label: "EF Business", href: "/business" } : { label: "Shop", href: "/shop" },
     { label: c.name, href: `/shop/${c.slug}` },
   ];
+  // Boxy tees whose regular tee is also listed here (the list shows them as one design).
+  const folded = products.filter((p) => p.garment === "Boxy Tee" && products.some((q) => q.garment === "Tee" && q.design === p.design && q.print === p.print && q.collection === p.collection)).length;
   return (
     <>
       <JsonLd data={breadcrumbLd(crumbs.map((x) => ({ name: x.label, path: x.href })))} />
@@ -50,7 +52,7 @@ export default async function CollectionPage({ params }: Params) {
           },
         }}
       />
-      <CollectionHeader c={c} count={products.length} crumbs={crumbs} />
+      <CollectionHeader c={c} count={products.length} designs={products.length - folded} crumbs={crumbs} />
       <div className="wrap">
           <ProductList products={products.map(toCard)} showGarment={c.kind !== "garment" || c.slug === "tees" || c.slug === "hoodies"} />
       </div>
