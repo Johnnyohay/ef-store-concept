@@ -137,18 +137,9 @@ export default function Story() {
           </div>
           <div className={s.pile} aria-label="Paul Rand collection">
             <ModelShot id="paul-rand-option-3-red-blue-casual-tee" tilt={2} label="Rand Option 3" />
-            <Link href="/product/paul-rand-option-1-casual-tee" className={`${s.sticker} ${s.l}`} style={{ rotate: "-5deg" }}>
-              <Image src="/images/rand/option-1.jpg" alt="" width={480} height={480} sizes="(min-width: 900px) 280px, 45vw" />
-              <span className={s.stickerLabel}>Option 1</span>
-            </Link>
-            <Link href="/product/paul-rand-option-3-red-blue-casual-tee" className={`${s.sticker} ${s.m}`} style={{ rotate: "4deg" }}>
-              <Image src="/images/rand/option-3.jpg" alt="" width={480} height={480} sizes="(min-width: 900px) 220px, 38vw" />
-              <span className={s.stickerLabel}>Option 3</span>
-            </Link>
-            <Link href="/product/paul-rand-option-2-multicolor-casual-tee" className={`${s.sticker} ${s.m}`} style={{ rotate: "-2deg" }}>
-              <Image src="/images/rand/option-2.jpg" alt="" width={480} height={480} sizes="(min-width: 900px) 220px, 38vw" />
-              <span className={s.stickerLabel}>Option 2</span>
-            </Link>
+            <ModelShot id="paul-rand-option-1-casual-tee" tilt={-5} label="Rand Option 1" />
+            <ModelShot id="paul-rand-option-2-multicolor-casual-tee" tilt={4} label="Rand Option 2" />
+            <ModelShot id="paul-rand-option-3-black-casual-tee" tilt={-2} label="Rand Option 3, Black" />
           </div>
         </div>
       </section>
