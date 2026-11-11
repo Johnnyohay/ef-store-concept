@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { BERTIL, BOSTON, CYCLING, EF_TODAY, HULT, ORIGIN, RAND, SOURCES, STORE_QUOTES, WHO } from "@/lib/facts";
 import Photo from "./Photo";
+import models from "@/data/model_fit.json";
+import modelPhotos from "@/data/models.json";
+
+const HAS_MODEL = (id: string) => id !== "_note" && id in (modelPhotos as Record<string, string>);
 import s from "./Story.module.css";
 
 // The EF story, told as a story: a kid who couldn't learn English in school, a trip,
@@ -10,6 +14,8 @@ import s from "./Story.module.css";
 // store's own product photos, so the story always leads back to a shirt.
 
 function Sticker({ id, tilt = 0, size = "m", label }: { id: string; tilt?: number; size?: "s" | "m" | "l"; label: string }) {
+  // Every design with a photo of Jonathan wearing it shows that photo instead of the flat product.
+  if (HAS_MODEL(id)) return <ModelShot id={id} tilt={tilt} label={label} />;
   return (
     <Link href={`/product/${id}`} className={`${s.sticker} ${s[size]}`} style={{ rotate: `${tilt}deg` }}>
       <Image src={`/images/stickers/${id}.jpg`} alt="" width={480} height={480} sizes="(min-width: 900px) 240px, 40vw" />
@@ -22,8 +28,8 @@ function Sticker({ id, tilt = 0, size = "m", label }: { id: string; tilt?: numbe
 function ModelShot({ id, tilt = 0, label }: { id: string; tilt?: number; label: string }) {
   return (
     <Link href={`/product/${id}`} className={`${s.sticker} ${s.model}`} style={{ rotate: `${tilt}deg` }}>
-      <Image src={`/images/models/${id}.jpg`} alt={`Jonathan wearing the ${label} tee (AI-generated image)`} width={960} height={1190} sizes="(min-width: 900px) 300px, 60vw" />
-      <span className={s.stickerLabel}>{label} · Jonathan · AI image</span>
+      <Image src={`/images/models/${id}.jpg`} alt={`${models.name} wearing the ${label} (AI-generated image)`} width={1136} height={1408} quality={90} sizes="(min-width: 900px) 520px, 100vw" />
+      <span className={s.stickerLabel}>{label} · {models.name} · AI image</span>
     </Link>
   );
 }
