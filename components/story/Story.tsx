@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BERTIL, BOSTON, CYCLING, EF_TODAY, HULT, ORIGIN, RAND, SOURCES, STORE_QUOTES, WHO } from "@/lib/facts";
 import Photo from "./Photo";
-import models from "@/data/model_fit.json";
+const models = { name: "Jonathan" };
 import modelPhotos from "@/data/models.json";
 
 const HAS_MODEL = (id: string) => id !== "_note" && id in (modelPhotos as Record<string, string>);
