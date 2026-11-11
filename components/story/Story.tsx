@@ -2,10 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { BERTIL, BOSTON, CYCLING, EF_TODAY, HULT, ORIGIN, RAND, SOURCES, STORE_QUOTES, WHO } from "@/lib/facts";
 import Photo from "./Photo";
-const models = { name: "Jonathan" };
 import modelPhotos from "@/data/models.json";
 
 const HAS_MODEL = (id: string) => id !== "_note" && id in (modelPhotos as Record<string, string>);
+// Who is wearing it: the first word of the photo caption ("Carlotta in the ...").
+const wearer = (id: string) => (modelPhotos as Record<string, string>)[id].split(" ")[0];
 import s from "./Story.module.css";
 
 // The EF story, told as a story: a kid who couldn't learn English in school, a trip,
@@ -14,7 +15,7 @@ import s from "./Story.module.css";
 // store's own product photos, so the story always leads back to a shirt.
 
 function Sticker({ id, tilt = 0, size = "m", label }: { id: string; tilt?: number; size?: "s" | "m" | "l"; label: string }) {
-  // Every design with a photo of Jonathan wearing it shows that photo instead of the flat product.
+  // Every design with a photo of a team member wearing it shows that photo instead of the flat product.
   if (HAS_MODEL(id)) return <ModelShot id={id} tilt={tilt} label={label} />;
   return (
     <Link href={`/product/${id}`} className={`${s.sticker} ${s[size]}`} style={{ rotate: `${tilt}deg` }}>
@@ -24,12 +25,12 @@ function Sticker({ id, tilt = 0, size = "m", label }: { id: string; tilt?: numbe
   );
 }
 
-// A photo of Jonathan wearing the design (AI-generated, labeled), shown like a pinned print.
+// A photo of a team member wearing the design (AI-generated, labeled), shown like a pinned print.
 function ModelShot({ id, tilt = 0, label }: { id: string; tilt?: number; label: string }) {
   return (
     <Link href={`/product/${id}`} className={`${s.sticker} ${s.model}`} style={{ rotate: `${tilt}deg` }}>
-      <Image src={`/images/models/${id}.jpg`} alt={`${models.name} wearing the ${label} (AI-generated image)`} width={1136} height={1408} quality={90} sizes="(min-width: 900px) 520px, 100vw" />
-      <span className={s.stickerLabel}>{label} · {models.name} · AI image</span>
+      <Image src={`/images/models/${id}.jpg`} alt={`${wearer(id)} wearing the ${label} (AI-generated image)`} width={1136} height={1408} quality={90} sizes="(min-width: 900px) 520px, 100vw" />
+      <span className={s.stickerLabel}>{label} · {wearer(id)} · AI image</span>
     </Link>
   );
 }

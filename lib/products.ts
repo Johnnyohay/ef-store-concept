@@ -26,7 +26,7 @@ export type Product = {
   returns: string[];
   size_chart: { unit: "in"; rows: SizeRow[] } | null;
   source_url: string;
-  /** Set when an AI-generated photo of Jonathan wearing this design leads the gallery. */
+  /** Set when an AI-generated photo of a team member wearing this design leads the gallery. */
   model?: string;
 };
 
@@ -42,9 +42,9 @@ export type Collection = {
 };
 
 const MODELS = models as Record<string, string>;
-// Products with a photo of Jonathan wearing them lead with that photo (labeled as AI-generated).
+// Products with a photo of a team member wearing them lead with that photo (labeled as AI-generated).
 const RAW = (data as { products: Product[] }).products;
-/** The photo of Jonathan for a product: its own, or (boxy tees) the one of the same print on the regular tee. */
+/** The photo of a team member for a product: its own, or (boxy tees) the one of the same print on the regular tee. */
 const modelFor = (p: Product): string | undefined => {
   if (MODELS[p.id]) return p.id;
   if (p.garment !== "Boxy Tee") return undefined;
@@ -54,7 +54,7 @@ const modelFor = (p: Product): string | undefined => {
 export const PRODUCTS = RAW.map((p) => {
   const m = modelFor(p);
   return m ? { ...p, model: MODELS[m], images: [`/images/models/${m}.jpg`, ...p.images] } : p;
-}).sort((a, b) => Number(!!b.model) - Number(!!a.model)); // photos of Jonathan lead every list (stable sort)
+}).sort((a, b) => Number(!!b.model) - Number(!!a.model)); // team-member photos lead every list (stable sort)
 export const isModelImage = (src: string) => src.startsWith("/images/models/");
 
 const GARMENT_GROUPS: Record<string, Garment[]> = {

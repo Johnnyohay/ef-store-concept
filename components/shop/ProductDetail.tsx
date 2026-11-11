@@ -59,7 +59,7 @@ export default function ProductDetail({ p, collectionName, shipping, returnsExtr
             className={s.mainImg}
           />
           {isModelImage(p.images[img]) && (
-            <p className={s.aiNote}>AI-generated image of a real person (Jonathan, Hult MBA 2026) wearing this design.</p>
+            <p className={s.aiNote}>AI-generated image of {p.model?.split(" ")[0]}, a real member of our Hult team, wearing this design (with consent).</p>
           )}
         </div>
         {p.images.length > 1 && (
