@@ -58,9 +58,6 @@ export default function ProductDetail({ p, collectionName, shipping, returnsExtr
             sizes="(min-width: 900px) 55vw, 100vw"
             className={s.mainImg}
           />
-          {isModelImage(p.images[img]) && (
-            <p className={s.aiNote}>AI-generated image of {p.model?.split(" ")[0]}, a real member of our Hult team, wearing this design (with consent).</p>
-          )}
         </div>
         {p.images.length > 1 && (
           <ul className={s.thumbs}>

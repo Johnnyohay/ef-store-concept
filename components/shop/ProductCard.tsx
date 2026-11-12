@@ -20,7 +20,6 @@ export default function ProductCard({ p, priority = false }: { p: Product; prior
             priority={priority}
             className={s.img}
           />
-          {p.model && <span className={s.aiTag}>AI image</span>}
           {p.images[1] && (
             <Image src={p.images[1]} alt="" fill sizes="(min-width: 1100px) 25vw, 33vw" className={s.alt} aria-hidden />
           )}

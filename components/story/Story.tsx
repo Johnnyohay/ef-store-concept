@@ -30,7 +30,7 @@ function ModelShot({ id, tilt = 0, label }: { id: string; tilt?: number; label: 
   return (
     <Link href={`/product/${id}`} className={`${s.sticker} ${s.model}`} style={{ rotate: `${tilt}deg` }}>
       <Image src={`/images/models/${id}.jpg`} alt={`${wearer(id)} wearing the ${label} (AI-generated image)`} width={1136} height={1408} quality={90} sizes="(min-width: 900px) 520px, 100vw" />
-      <span className={s.stickerLabel}>{label} · {wearer(id)} · AI image</span>
+      <span className={s.stickerLabel}>{label} · {wearer(id)}</span>
     </Link>
   );
 }
